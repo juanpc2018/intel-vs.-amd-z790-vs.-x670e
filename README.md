@@ -5,7 +5,7 @@ ASRock Z790 LiveMixer </br>
 vs. </br>
 AMD </br>
 ASRock X670E PG Lightning </br>
-B650 LiveMixer </br>
+ASRock B650 LiveMixer </br>
 
 features wise... almost the same </br>
 Cardboard box is better in Z790 LiveMixer, </br>
