@@ -89,7 +89,7 @@ intel or AMD iGPU does Not play 3D games at 3440x1440 x 160fps, </br>
 AMD most powerful iGPU is the 8700G CPU. </br>
 
 FlashRom is connected directly to CPU on intel board, requires CPU to flash Bios. </br>
-FlashRom is connected to X670E Chipset, allows to FlashBios in Standby mode "Turned-Off, No CPU." </br>
+FlashRom is connected to X670E or B650 Chipset, allows to FlashBios in Standby PSU "Turned-Off, No CPU." </br>
 
 AMD has 1x USB-C 3.2 Gen 2x2 "20Gbps" </br>
 intel has Optical Toslink Audio Output.  </br>
