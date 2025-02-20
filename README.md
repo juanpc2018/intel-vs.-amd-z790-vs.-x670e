@@ -22,7 +22,7 @@ but according to Block Diagram, PCIe v5 support comes from the CPU, Not the Chit
 [Z790 LiveMixer](https://www.asrock.com/mb/Intel/Z790%20LiveMixer/Specification.asp) has 1x PCIe v5 x16 | 2x PCIe v4 x16 electrical: x4 x4 + 1x PCIe x1. 
 
 B650 LiveMixer has 2x SATA-III 6Gbps </br>
-X670E has 4x SATA-III 6Gbps + 1x 20 Gbps USB-C 3.2 Gen2x2 </br>
+X670E has 4x SATA-III 6Gbps + 1x 20 Gbps [USB-C 3.2 Gen2x2](https://en.wikipedia.org/wiki/USB_3.0#USB_3.2) </br>
 
 For Booting Linux external using USB-C 3.2 2x2 is faster on X670E </br>
 requires a 20G USB 3 or 40G USB 4 [Orinco M.2 NVMe & SATA SSD Drive Enclosure](https://www.orico.cc/us/product/subcategory/115.html) </br>
