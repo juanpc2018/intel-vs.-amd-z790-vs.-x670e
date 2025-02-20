@@ -31,7 +31,7 @@ For Booting Linux on external USB-C 3.2 2x2 is faster on X670E </br>
 requires a 20G USB 3.2 or 40G USB 4.0 [Orinco M.2 NVMe & SATA SSD Drive Enclosure](https://www.orico.cc/us/product/subcategory/115.html) or similar enclosure, </br>
 booting using Thunderbolt chassis + eGPU + M.2 to PCIe x4 card is another option. </br>
 
-There is No 100% equivalent on AMD of the intel Z790 LiveMixer, </br>
+There is No 100% equivalent on AMD of intel Z790 LiveMixer, </br>
 X670E PG Lightning vs. B650 LiveMixer </br>
 you win some, you lose some, depends on your needs. </br>
 
