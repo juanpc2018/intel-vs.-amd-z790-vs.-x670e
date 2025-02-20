@@ -5,15 +5,17 @@ ASRock Z790 LiveMixer </br>
 vs. </br>
 AMD </br>
 ASRock X670E PG Lightning </br>
+B650 LiveMixer </br>
 
 features wise... almost the same </br>
 Cardboard box is better in Z790 LiveMixer, </br>
 X670E Box is "economic" type. </br>
-but both have same foam, similar manual, and accesories SATA cable and M.2 screws. </br>
+both have same foam, similar manual, and accesories: SATA cable and M.2 screws. </br>
 
-According to ASRock the B650 LiveMixer is the AMD equivalent, </br>
-but... does Not have [X670E "Dual" Chipset](https://www.digitalcitizen.life/x670e-x670-b650e-b650-chipsets/), does Not have 1x PCIe x1 </br>
-has B650 Non-E = does Not have PCIe v5 support. </br>
+According to ASRock, B650 LiveMixer is the AMD equivalent of Z790 LiveMixer, </br>
+but... does Not have [X670E "Dual" Chipset](https://www.digitalcitizen.life/x670e-x670-b650e-b650-chipsets/), does Not have 1x PCIe x1 slot </br>
+has [B650 Non-E](https://www.digitalcitizen.life/x670e-x670-b650e-b650-chipsets/) = does Not have PCIe v5 support. </br>
+but according to Block Diagram, PCIe v5 support comes from the CPU, Not the Chitpset. </br>
 
 [B650 LiveMixer](https://www.asrock.com/mb/AMD/B650%20LiveMixer/Specification.us.asp#Specification) has 3x PCIe v4 x16, electrically: x16 x4 x4. </br>
 [X670E PG Lightning](https://pg.asrock.com/MB/AMD/X670E%20PG%20Lightning/index.asp) has 1x PCIe v5 x16 | 2x PCIe v4 x16 electrical: x4 x1 + 1x PCIe x1. </br>
