@@ -66,20 +66,20 @@ Z790 LiveMixer has 4x SATA-III 6Gbps connectors in 1x large connector, </br>
 X670E PG Lightning has 4x SATA-III 6Gbps connectors separated in pairs. </br>
 B650 LiveMixer only has 2x SATA-III 6Gbps connectors. </br>
 
-same features: </br>
+same: </br>
 TBT Thunderbolt4 header. </br>
-1x PCIe v5 x16 shared with M.2 PCIe v5 x4 slot 1, using a switch. </br>
-1x PCIe v4 connector x1 electrical </br>
-2x PCIe v4 connector x4 x4 electrical or x4 x1 </br>
+1x PCIe v5 x16 shared with M.2 PCIe v5 x4 slot 1, using a switch in Z790 and X670E. </br>
+1x PCIe v4 connector x1 electrical, Not available in B650 LiveMixer </br>
+2x PCIe v4 connector x4 x4 electrical or x4 x1 in X670E PG Lightning </br>
 4x DDR5 DIMM Slots. </br>
 HDMI out </br>
 DisplayPort 1.4 out. </br>
-same Hardware monitor: SIO NCT6796D </br>
-same HDAudio: ALC897 </br>
+Hardware monitor: SIO NCT6796D </br>
+HDAudio: ALC897 </br>
 2x USB-A Low Latency "Lightning Gaming" [Ports](https://www.asrock.com/microsite/2021EmbraceTheFuture/single-post3.html) </br> 
 8-Layer PCB. </br>
 14-Vcore Phases + 2 SOC Phases + 1 VDO Misc Phase on AMD, 14-Phases on intel</br>
-2.5GbE Realtek LAN. </br>
+2.5GbE Realtek LAN, RTL8125BG. </br>
 
 WQHD monitors like LG 34GP63 are: 3440x1440 x160fps </br>
 160fps requires DisplayPort 1.4 or better, </br>
