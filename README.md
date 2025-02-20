@@ -31,21 +31,25 @@ X670E PG Lightning vs. B650 LiveMixer </br>
 you win some, you lose some, depends on your needs. </br>
 
 for example:</br>
-if [Thunderbolt 4 AIC PCIe x4 card](https://www.asrock.com/mb/spec/product.asp?Model=Thunderbolt%204%20AIC) works ok in x1 electric PCIe v4 slot? </br>
+does [Thunderbolt 4 AIC PCIe x4 card](https://www.asrock.com/mb/spec/product.asp?Model=Thunderbolt%204%20AIC) work in x1 electric PCIe v4 slot? </br>
 TB4 has a maximum thoughput of 40 Gb/s but... thats Not always used, Not in my case. </br>
 im Not using all features of Thunderbolt 4 </br>
 
 Razer Core X Chroma [eGPU](https://egpu.io/best-egpu-buyers-guide/) chassis is PCIe v3, and Thunderbolt3. </br>
 PCIe v4 x1 has a thoughput of [2GB/s](https://en.wikipedia.org/wiki/PCI_Express#Comparison_table) "16 Gbit/s" </br>
 PCIe v3 x2 has same. </br>
-Thunderbolt3 has 40 Gbit/s (5 GB/s). </br>
+PCIe v2 x4 same. </br>
+Thunderbolt3 has maximum througput of 40 Gbit/s (5 GB/s). </br>
 
 Avid HDX PCIe card requires PCIe v2 x4 = 16 Gbits/s (2 GB/s) </br>
-works ok on Macmini 2014 [Thunderbot 2](https://en.wikipedia.org/wiki/Thunderbolt_(interface)#Thunderbolt_2) at 20 Gbit/s. </br>
+works on Macmini 2014 [Thunderbot 2](https://en.wikipedia.org/wiki/Thunderbolt_(interface)#Thunderbolt_2) at 20 Gbit/s ("2.5GB/s") </br>
 physical level, Thunderbolt 1 & 2 bandwidth are identical. </br>
 TB 1 cabling is compatible with TB 2 interfaces </br>
 TB 2 has channel aggregation, 2x TB1 10 Gbit/s channels combined on 1x 20 Gbit/s channel. </br>
 
+Sonnet 10G Solo "10Gbit/s = 1.25GB/s = 1250MB/s" PCIe SFP+ FiberOptic Network adapter </br>
+ASUS XG-C100F 10G SFP+ Network adapter or similar </br>
+requires PCIe v2 x4 ("2GB/s / 16Gbit/s") </br>
 
 Other differences: </br>
 
