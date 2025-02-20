@@ -48,9 +48,14 @@ PCIe v2 x4 same. </br>
 
 Avid HDX PCIe card requires PCIe v2 x4 = 16 Gbits/s (2 GB/s = 2000 MB/s) </br>
 works on Macmini 2014 [Thunderbot 2](https://en.wikipedia.org/wiki/Thunderbolt_(interface)#Thunderbolt_2) at 20 Gbit/s ("2.5GB/s") </br>
-physical level: Thunderbolt 1 & 2 bandwidth are identical. </br>
-TB 1 cabling is compatible with TB 2 interfaces </br>
-TB 2 has channel aggregation, 2x TB1 10 Gbit/s channels combined in 1x 20 Gbit/s channel. </br>
+PCIe v4 x1 = PCIe v2 x4 in theory should work. </br>
+1x Thundebolt4 card in PCIe x1 v4 slot and 1x TB3 cable / port only. </br>
+and leave the other PCIe v4 x4 for other card. </br>
+
+physical level: Thunderbolt 1 & 2 bandwidth are same. </br>
+TB 1 & 2 cabling same. </br>
+TB 2 has channel aggregation: </br>
+2x TB-1 10 Gbit/s channels combined in 1x 20 Gbit/s channel. </br>
 
 Sonnet 10G Solo "10Gbit/s = 1.25GB/s = 1250 MB/s" PCIe SFP+ FiberOptic Network adapter </br>
 ASUS XG-C100F 10G SFP+ Network adapter or similar </br>
