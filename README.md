@@ -1,0 +1,1 @@
+# intel-vs.-amd-z790-vs.-x670e
