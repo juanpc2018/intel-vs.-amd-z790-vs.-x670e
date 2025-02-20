@@ -81,14 +81,14 @@ TBT Thunderbolt4 header. </br>
 HDMI out </br>
 DisplayPort 1.4 out. </br>
 Hardware monitor: SIO NCT6796D </br>
-HDAudio: ALC897 </br>
+HDAudio: ALC897 but Analog Audio Circuit may be different. </br>
 2x USB-A Low Latency "Lightning Gaming" [Ports](https://www.asrock.com/microsite/2021EmbraceTheFuture/single-post3.html) </br> 
 8-Layer PCB. </br>
 14-Vcore Phases + 2 SOC Phases + 1 VDO Misc Phase on AMD, 14-Phases on intel</br>
-2.5GbE Realtek LAN, RTL8125BG. </br>
+2.5GbE Realtek LAN: RTL8125BG. </br>
 
-WQHD monitors like LG 34GP63 are: 3440x1440 x160fps </br>
-160fps requires DisplayPort 1.4 or better, </br>
+WQHD monitors like LG 34GP63 are: 3440x1440 x 160fps </br>
+160fps requires DisplayPort 1.4 or better </br>
 HDMI is limited to 50fps. </br>
 
 intel or AMD iGPU does Not play 3D games at 3440x1440 x 160fps, </br>
