@@ -68,7 +68,7 @@ IF TB4 card supports v4 x1, but [manual](https://www.asrock.com/mb/spec/product.
 TB4 AIC [Version2.0](https://www.asrock.com/mb/spec/product.asp?Model=Thunderbolt%204%20AIC%20R2.0#Support) also does Not. </br>
 Only supports PCIe v3 x4, working at x1 = 8 Gbits per lane = 1 GB/s = 1000 MB/s per lane. </br>
 half the speed required for max operation, </br>
-could work for lower I/O channel count, Not the whole [2x 32-channel DigiLink™ Mini connectors (64 i/o channels total)](https://cdn-www.avid.com/-/media/avid/files/products-pdf/carbon/pro-tools-carbon-vs-hdx-mtrx-studio-bundle-comparison.pdf) </br>
+could work for lower I/O channel count, Not the whole [2x 32-channel Mini DigiLink™ connectors (64 channel total)](https://cdn-www.avid.com/-/media/avid/files/products-pdf/carbon/pro-tools-carbon-vs-hdx-mtrx-studio-bundle-comparison.pdf) </br>
 
 1x Thundebolt4 PCIe card in PCIe x1 slot + 1x TB3 cable port. </br>
 and leave the other PCIe v4 x4 for other card. </br>
