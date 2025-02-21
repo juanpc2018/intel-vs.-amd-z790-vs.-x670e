@@ -42,7 +42,7 @@ TB4 card requires to change 1x jumper on the TB4 card for AMD boards. </br>
 
 TB4 has a maximum thoughput of 40 Gb/s but... thats Not always used, Not in my case. </br>
 im Not using all features / bandwith of Thunderbolt 4 </br>
-ASRock TB4 PCIe card claims its PCIe v3 x4 = 4 GB/s = 4000 MB/s = 32 Gbit/s "8 Gbits = 1 GB/s = 1000 MB/s per lane." </br>
+ASRock TB4 PCIe card claims its PCIe v3 x4 = 4 GB/s = 4000 MB/s = [32 Gbit/s](https://en.wikipedia.org/wiki/Thunderbolt_(interface)#Thunderbolt_3) "8 Gbits = 1 GB/s = 1000 MB/s per lane." </br>
 40 Gb/s must be including the USB header. </br>
 
 Razer Core X Chroma [eGPU](https://egpu.io/best-egpu-buyers-guide/) chassis is PCIe v3, and Thunderbolt3. </br>
