@@ -85,19 +85,24 @@ B650 LiveMixer is 8+8 </br>
 ¿ is 8+4 enough for AMD 16-core 9950x or 7950x 170w ? </br>
 or will happen the same as [Nvidia 4090 power connector](https://en.wikipedia.org/wiki/16-pin_12VHPWR_connector#Reliability_and_design_changes)? </br>
 [AWG18](https://www.powerstream.com/Wire_Size.htm) +12V Power Connector: </br>
-Molex* 39-01-2040 or equivalent. </br>
-Contact: Molex 44476-1112 (HCS) or equivalent (Mating motherboard connector Molex 39-29-9042 or equivalent). </br>
-2.3A per wire x 12v = 8+4 = 27.6 x 6 = 165.6 watts. </br>
+Molex* 39-01-2040 or equivalent, </br>
+Contact: Molex 44476-1112 (HCS) or equivalent </br>
+Mating motherboard connector Molex 39-29-9042 or equivalent). </br>
+2.3A per AWG16 wire x 12v = 8+4 = 27.6 x 6 = 165.6 watts. </br>
 8+8 = 27.6 x 8 = 220.8 watts. </br>
-24-Pin connector has +12v Pins 10 & 11 = 2.3A * 12 * 2 = 55 watts + 8+6 "165watts" = 220 watts. </br>
-Maximum 12-pin 6+6 connector can output of 648W (12V * 9A), 2x 150W 8-pin can be combined via an adapter cable to form one 648W 12-pin. </br>
-EPS12v specification has 75w limit for each 4-pin CPU connector, 8+4 = 225watts. </br>
-8+4 seem enough, but depends... on PCIe configuration and PSU CPU cables, AWG must be true [AWG16](https://www.powerstream.com/Wire_Size.htm), Not rubber AWG16. </br>
+24-Pin connector has +12v Pins 10 & 11 = 2.3A * 12 * 2 = 55 watts + 8+6 "165watts" = 220 watts minus PCIe +12v power consumption. </br>
 
-Each PCIe x4 electric slot is limited to [25w](https://en.wikipedia.org/wiki/PCI_Express#Power) = 220w - 25w = 195w - 25w = 170w </br>
+[EPS12v specification](https://web.archive.org/web/20201205140420/http://www.enermax.cn/enermax_pdf/EPS12V%20Spec2_92.pdf) has a recommended limit of 240VA for each 4-pin 12v CPU conector, </br>
+Assuming 75w limit each 4-pin CPU connector, 8+4 = 225watts. </br>
+8+4 seem enough, but depends... on PCIe configuration and PSU CPU cables, AWG must be true [AWG16](https://www.powerstream.com/Wire_Size.htm), Not rubber AWG16. </br>
+3.7A per wire at 12V = 44.4watts per wire, 4-pin connector has 2x +12v = 88watts maximum, </br>
+theoretic maximum 264watts for AWG16 8+4 CPU connector or 165watts for AWG18. </br>
+
+Each PCIe x4 electric slot is limited to [25w](https://en.wikipedia.org/wiki/PCI_Express#Power) = 220w "AWG18" - 25w = 195w - 25w = 170w </br>
 Each x1 PCIe slot is limited to 0.5A at +12V (6W) 10W combined. </br>
 x16 graphics card that does Not have VGA 6-pin power connector, like some GTX 1050 Ti, RTX A2000 draw up to 5.5A at +12V (66W) 75W combined. </br>
-Optional connectors add: +75W (6-pin) & +150W (8-pin) of +12V. </br>
+Optional VGA connectors add: +75W (6-pin) / +150W (8-pin) of +12V. </br>
+Works but requires a well designed PSU. </br>
 
 ### SATA-III
 
