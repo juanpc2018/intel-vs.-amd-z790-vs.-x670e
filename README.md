@@ -48,19 +48,19 @@ you win some, you lose some, depends on your needs. </br>
 
 ¿Does [Thunderbolt 4 AIC PCIe card](https://www.asrock.com/mb/spec/product.asp?Model=Thunderbolt%204%20AIC) work in x1 electric PCIe v4 slot? </br>
 TB4 box comes with a install guide paper, but instructions are incomplete / outdated </br>
-requires to [download .pdf](https://download.asrock.com/Manual/Thunderbolt%204%20AIC.pdf) 
-AMD boards require to change 1x jumper on the TB4 card. </br>
+[download .pdf](https://download.asrock.com/Manual/Thunderbolt%204%20AIC.pdf) </br>
+AMD boards require to change 1x jumper on TB4 card. </br>
 .pdf has a list of supported Motherboards, and recommended PCIe slot. </br>
 some boards are PCIe slot4 like Z790 LiveMixer, others PCIe slot3 like X670E PG Lightning, and others PCIe slot2 like B650 LiveMixer. </br>
-Z790 PCIe slot4 goes to Z790 chipset, </br>
+Z790 PCIe slot4 goes to Z790 chipset </br>
 X670E PCIe slot3 goes to CPU. </br>
 B650 LiveMixer PCIe slot2 goes to CPU. </br>
 
-Z790 LiveMixer TB4 card does Not work when using 12th gen CPU like i3-12100 + latest Bios 18.x designed for 14gen CPU´s, </br>
+Z790 LiveMixer TB4 card does Not work when using 12th gen CPU like i3-12100 + latest Bios/Uefi 18.x designed for 14gen CPU´s, </br>
 TB4 card works OK with [UEFI v9.03](https://www.asrock.com/mb/Intel/Z790%20LiveMixer/Specification.asp#BIOS) because it´s Universal, works with 12, 13 & 14th gen CPU´s </br>
 older Bios does Not support 14th gen CPU´s. </br>
 
-AMD boards To Be Tested... </br>
+AMD boards: To Be Tested... </br>
 
 TB4 has a maximum thoughput of 40 Gb/s but... thats Not always used, Not in my case. </br>
 im Not using all features / bandwith of Thunderbolt 4 </br>
@@ -99,13 +99,14 @@ Sonnet 10G Solo "10Gbit/s = 1.25GB/s = 1250 MB/s" PCIe SFP+ FiberOptic Network a
 ASUS XG-C100F 10G SFP+ Network adapter or similar </br>
 requires PCIe v2 x4 ("2GB/s / 16Gbit/s / 2000 MB/s") = PCIe v3 x2 = PCIe v4 x1. </br>
 
-but cards do Not support PCIe v4 x1 only PCIe v2 maybe v3 </br>
-
-IF cards support v3 x1 probably will run at 1GB/s = 1000MB/s, Not a big loss for SFP+ 10G </br>
+but cards do Not support PCIe v4 x1, Only PCIe v2 maybe v3 </br>
+IF cards support v3 x1 probably will run at 1GB/s = 1000MB/s, Not a big loss for SFP+ 10G, Untested. </br>
+Maybe Bios does Not detect TB4 card if Not installed in the "recommended PCIe slot". </br>
 
 ### Other differences: </br>
 
-X670E PG Lightning CPU Power connector is 8+4  
+CPU Power connector: </br>
+X670E PG Lightning is 8+4 </br>
 Z790 LiveMixer is 8+8 </br>
 B650 LiveMixer is 8+8 </br>
 
@@ -129,7 +130,7 @@ Each PCIe x4 electric slot is limited to [25w](https://en.wikipedia.org/wiki/PCI
 Each x1 PCIe slot is limited to 0.5A at +12V (6W) 10W combined. </br>
 x16 graphics card that does Not have VGA 6-pin power connector, like some GTX 1050 Ti, RTX A2000 draw up to 5.5A at +12V (66W) 75W combined. </br>
 Optional VGA connectors add: +75W (6-pin) / +150W (8-pin) of +12V. </br>
-Works but requires a well designed PSU. </br>
+8+4 Works but requires a well designed PSU. </br>
 
 ### SATA-III
 
