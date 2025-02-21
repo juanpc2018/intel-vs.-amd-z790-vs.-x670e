@@ -106,7 +106,7 @@ HDMI out </br>
 DisplayPort 1.4 out. </br>
 Hardware monitor: SIO NCT6796D </br>
 HDAudio: ALC897 but Analog Audio Circuit may be different. </br>
-2x USB-A Low Latency "Lightning Gaming" [Ports](https://www.asrock.com/microsite/2021EmbraceTheFuture/single-post3.html) </br> 
+2x USB-A Low Latency ["Lightning Gaming"](https://www.asrock.com/microsite/2022EmbraceTheFuture/single-post8.html) [Ports](https://www.asrock.com/microsite/2021EmbraceTheFuture/single-post3.html) </br> 
 8-Layer PCB. </br>
 14-Vcore Phases + 2 SOC Phases + 1 VDO Misc Phase on AMD, 14-Phases on intel</br>
 2.5GbE Realtek LAN: RTL8125BG. </br>
