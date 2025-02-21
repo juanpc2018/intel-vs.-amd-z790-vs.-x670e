@@ -87,8 +87,8 @@ Molex* 39-01-2040 or equivalent. </br>
 Contact: Molex 44476-1112 (HCS) or equivalent (Mating motherboard connector is Molex 39-29-9042 or equivalent). </br>
 2.3A per wire x 12v = 8+4 = 27.6 x 6 = 165.6 watts. </br>
 8+8 = 27.6 x 8 = 220.8 watts. </br>
-24-Pin connector also has +12v, Pins10 & 11 = 2.3A * 12 * 2 = 55 watts + 8+6 "165watts" = 220 watts. </br>
-8+6 its enough. </br>
+24-Pin connector has +12v Pins10 & 11 = 2.3A * 12 * 2 = 55 watts + 8+6 "165watts" = 220 watts. </br>
+8+4 its enough. </br>
 
 Z790 LiveMixer has 4x SATA-III 6Gbps connectors in 1x large connector, </br>
 X670E PG Lightning has 4x SATA-III 6Gbps connectors separated in pairs. </br>
