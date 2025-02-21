@@ -134,6 +134,8 @@ x16 graphics card that does Not have VGA 6-pin power connector, like some GTX 10
 Optional VGA connectors add: +75W (6-pin) / +150W (8-pin) of +12V. </br>
 8+4 Works but requires a well designed PSU. </br>
 
+IF disable "HyperThreading" CPU SMT, ACME PSU or Good PSU but Overclocking could work. </br>
+
 ### SATA-III
 
 Z790 LiveMixer has 4x SATA-III 6Gbps connectors in 1x large connector, </br>
