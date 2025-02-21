@@ -14,7 +14,7 @@ both have same foam, similar manual, and accesories: SATA cable and M.2 screws. 
 
 According to ASRock, B650 LiveMixer is the AMD equivalent of Z790 LiveMixer, </br>
 but... does Not have [X670E "Dual" Chipset](https://www.digitalcitizen.life/x670e-x670-b650e-b650-chipsets/), does Not have 1x PCIe x1 slot </br>
-has [B650 Non-E](https://www.digitalcitizen.life/x670e-x670-b650e-b650-chipsets/) does Not have x16 PCIe v5 support, but has M.2 x4 PCIe v5. </br>
+has [B650 Non-E](https://www.digitalcitizen.life/x670e-x670-b650e-b650-chipsets/) does Not have x16 PCIe v5 support, but has M.2 PCIe v5. </br>
 according to Block Diagram, PCIe v5 support comes from the CPU, Not the Chipset. </br>
 
 [B650 LiveMixer](https://www.asrock.com/mb/AMD/B650%20LiveMixer/Specification.us.asp#Specification) has 3x PCIe v4 x16, electrically: x16 x4 x4. </br>
