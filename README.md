@@ -34,7 +34,7 @@ X670E has 1x 20 Gbps [USB-C 3.2 Gen2x2](https://en.wikipedia.org/wiki/USB_3.0#US
 B650 & Z790 has 1x Front Panel USB-C 3.2 Gen2x2 Header, requires a special connector / case, Not included. </br>
 there are PCIe Brackets $20usd. to $50usd. depending on cable lenght. </br>
 
-For Booting Linux on external is faster on USB-C 3.2 2x2, </br> 
+For Booting Linux on external SSD is faster on USB-C 3.2 2x2 </br> 
 X670E does Not require special cable, has rear connector. </br>
 requires a 20G USB 3.2 or 40G USB 4.0 [Orico M.2 NVMe & SATA SSD Drive Enclosure](https://www.orico.cc/us/product/subcategory/115.html) or similar, </br>
 booting using Thunderbolt3/4 + eGPU + M.2 to PCIe card is another option. </br>
