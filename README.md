@@ -37,20 +37,29 @@ you win some, you lose some, depends on your needs. </br>
 
 for example:</br>
 does [Thunderbolt 4 AIC PCIe x4 card](https://www.asrock.com/mb/spec/product.asp?Model=Thunderbolt%204%20AIC) work in x1 electric PCIe v4 slot? </br>
+TB4 card requires to change 1 jumper on the TB4 card, for AMD boards. </br>
+
 TB4 has a maximum thoughput of 40 Gb/s but... thats Not always used, Not in my case. </br>
 im Not using all features / bandwith of Thunderbolt 4 </br>
+ASRock TB4 PCIe card claims its PCIe v3 x4 = 4 GB/s = 4000 MB/s = 32 Gbit/s "8 Gbits = 1 GB/s = 1000 MB/s per lane." </br>
 
 Razer Core X Chroma [eGPU](https://egpu.io/best-egpu-buyers-guide/) chassis is PCIe v3, and Thunderbolt3. </br>
 Thunderbolt3 has maximum througput of 40 Gbit/s (5 GB/s = 5000 MB/s). </br>
 PCIe v4 x1 has a thoughput of [2GB/s](https://en.wikipedia.org/wiki/PCI_Express#Comparison_table) "16 Gbit/s = 2000 MB/s" </br>
-PCIe v3 x2 same. </br>
-PCIe v2 x4 same. </br>
+PCIe v4 x1 = PCIe v3 x2 = PCIe v2 x4 </br>
 
-Avid HDX PCIe card requires PCIe v2 x4 = 16 Gbits/s (2 GB/s = 2000 MB/s) </br>
+Avid HDX PCIe card requires PCIe v2 x4 = 16 Gbits = 2 GB/s = 2000 MB/s </br>
 works on Macmini 2014 [Thunderbot 2](https://en.wikipedia.org/wiki/Thunderbolt_(interface)#Thunderbolt_2) at 20 Gbit/s ("2.5GB/s") </br>
-PCIe v4 x1 = PCIe v2 x4 in theory should work. </br>
-1x Thundebolt4 card in PCIe x1 v4 slot and 1x TB3 cable / port only. </br>
+PCIe v4 x1 = PCIe v2 x4, in theory should work </br>
+IF TB4 card supports v4 x1, but [manual](https://www.asrock.com/mb/spec/product.asp?Model=Thunderbolt%204%20AIC#Manual) say does Not.
+TB4 AIC [Version2.0](https://www.asrock.com/mb/spec/product.asp?Model=Thunderbolt%204%20AIC%20R2.0#Support) also does Not.
+Only supports PCIe v3 x4, working at x1 = 8 Gbits per lane = 1 GB/s = 1000 MB/s per lane. </br>
+half the speed required for max operation, </br>
+could work for lower I/O channel count, Not the [Two 32-channel DigiLink™ Mini connectors (64 i/o channels total)](https://cdn-www.avid.com/-/media/avid/files/products-pdf/carbon/pro-tools-carbon-vs-hdx-mtrx-studio-bundle-comparison.pdf) </br>
+
+1x Thundebolt4 PCIe card in PCIe x1 slot + 1x TB3 cable port. </br>
 and leave the other PCIe v4 x4 for other card. </br>
+more requires to move the Thunderbolt4 card to the x4 PCIe slot. </br>
 
 physical level: Thunderbolt 1 & 2 bandwidth are same. </br>
 TB 1 & 2 cabling same. </br>
@@ -61,8 +70,9 @@ Sonnet 10G Solo "10Gbit/s = 1.25GB/s = 1250 MB/s" PCIe SFP+ FiberOptic Network a
 ASUS XG-C100F 10G SFP+ Network adapter or similar </br>
 requires PCIe v2 x4 ("2GB/s / 16Gbit/s / 2000 MB/s") = PCIe v3 x2 = PCIe v4 x1. </br>
 
-but cards do Not support PCIe v4 x1 only PCIe v2 maybe v3, </br>
-if cards supports v3 x1 probably will run at 1GB/s = 1000MB/s, Not a big loss for SFP+ 10G </br>
+but cards do Not support PCIe v4 x1 only PCIe v2 maybe v3 </br>
+
+IF cards support v3 x1 probably will run at 1GB/s = 1000MB/s, Not a big loss for SFP+ 10G </br>
 
 Other differences: </br>
 
@@ -71,7 +81,14 @@ Z790 LiveMixer is 8+8 </br>
 B650 LiveMixer is 8+8 </br>
 
 ¿ is 8+4 enough for AMD 16-core 9950x or 7950x 170w ? </br>
-or will happens similar to Nvidia 4090 connector? </br>
+or will happen the same to [Nvidia 4090 power connector?](https://en.wikipedia.org/wiki/16-pin_12VHPWR_connector#Reliability_and_design_changes) </br>
+[AWG18](https://www.powerstream.com/Wire_Size.htm) +12V Power Connector: </br>
+Molex* 39-01-2040 or equivalent. </br>
+Contact: Molex 44476-1112 (HCS) or equivalent (Mating motherboard connector is Molex 39-29-9042 or equivalent). </br>
+2.3A per wire x 12v = 8+4 = 27.6 x 6 = 165.6 watts. </br>
+8+8 = 27.6 x 8 = 220.8 watts. </br>
+24-Pin connector also has +12v, Pins10 & 11 = 2.3A * 12 * 2 = 55 watts + 8+6 "165watts" = 220 watts. </br>
+8+6 its enough. </br>
 
 Z790 LiveMixer has 4x SATA-III 6Gbps connectors in 1x large connector, </br>
 X670E PG Lightning has 4x SATA-III 6Gbps connectors separated in pairs. </br>
