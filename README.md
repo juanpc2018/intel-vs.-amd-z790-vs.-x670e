@@ -22,6 +22,7 @@ i guess: CPU lanes are set Fixed by UEFI to PCIe x16 v4 to enable M.2 PCIe v5 "T
 
 PCIe v5 x16 would be for RAID cards like HighPoint [7608A](https://www.youtube.com/watch?v=IrsV-7knzME) & [1608](https://www.youtube.com/watch?v=suFHJYd_kks).[A](https://www.youtube.com/watch?v=dq8XnVIVJ_g) </br>
 GPU would have to be moved to the x4 or x1 slot or iGPU Only. </br>
+but B650 does Not have PCIe v5 x16, Only M.2 PCIe v5 </br>
 
 [B650 LiveMixer](https://www.asrock.com/mb/AMD/B650%20LiveMixer/Specification.us.asp) has 3x PCIe v4 x16, electrically: x16 x4 x4. </br>
 [X670E PG Lightning](https://pg.asrock.com/MB/AMD/X670E%20PG%20Lightning/index.asp) has 1x PCIe v5 x16 + 2x PCIe v4 x16 "x4 x1" + 1x PCIe x1 v4. </br>
