@@ -72,6 +72,7 @@ ASRock TB4 AIC [Version1.0](https://www.asrock.com/mb/spec/product.asp?Model=Thu
 Razer Core X Chroma [eGPU](https://egpu.io/best-egpu-buyers-guide/) chassis is PCIe v3, and Thunderbolt3. </br>
 Thunderbolt3 has 4x lanes of PCI Express 3.0 (32.4 Gbit/s) 4 GB/s = 4000 MB/s. </br>
 PCIe v4 x1 has a thoughput of [2GB/s](https://en.wikipedia.org/wiki/PCI_Express#Comparison_table) "16 Gbit/s = 2000 MB/s" </br>
+______________ ______________ PCIe v3 x1 = PCIe v2 x2 </br>
 ______________ PCIe v4 x1 = PCIe v3 x2 = PCIe v2 x4 </br>
 PCIe v5 x1 = PCIe v4 x2 = PCIe v3 x4 = PCIe v2 x8 </br>
 PCIe v5 x2 = PCIe v4 x4 = PCIe v3 x8 = PCIe v2 x16 </br>
@@ -84,9 +85,10 @@ works on Macmini 2014 [Thunderbot 2](https://en.wikipedia.org/wiki/Thunderbolt_(
 PCIe v4 x1 = PCIe v2 x4, in theory should work </br>
 IF TB4 card supports v4 x1, but [manual](https://www.asrock.com/mb/spec/product.asp?Model=Thunderbolt%204%20AIC#Manual) say does Not. </br>
 TB4 AIC [Version2.0](https://www.asrock.com/mb/spec/product.asp?Model=Thunderbolt%204%20AIC%20R2.0#Support) also does Not. </br>
-TB4 card only support PCIe v3 x4, working at x1 = 8 Gbits per lane = 1 GB/s = 1000 MB/s per lane. </br>
+TB4 card only support PCIe v3 x4, working at v3 x1 = 8 Gbit/s per lane = 1 GB/s = 1000 MB/s per lane. </br>
 half the speed required for max operation, </br>
-could work for lower I/O channel count, Not the whole [2x 32-channel mini DigiLink™ connectors (64 channel total)](https://cdn-www.avid.com/-/media/avid/files/products-pdf/carbon/pro-tools-carbon-vs-hdx-mtrx-studio-bundle-comparison.pdf) </br>
+could work for lower I/O channel count, </br>
+Not the whole [2x 32-channel mini DigiLink™ connectors (64 channel total)](https://cdn-www.avid.com/-/media/avid/files/products-pdf/carbon/pro-tools-carbon-vs-hdx-mtrx-studio-bundle-comparison.pdf) </br>
 
 1x Thundebolt4 PCIe card in PCIe x1 slot + 1x TB3 cable port. </br>
 and leave the other PCIe v4 x4 for other card. </br>
@@ -104,6 +106,7 @@ requires PCIe v2 x4 ("2GB/s / 16Gbit/s / 2000 MB/s") = PCIe v3 x2 = PCIe v4 x1. 
 but cards do Not support PCIe v4 x1, Only PCIe v2 maybe v3 </br>
 IF cards support v3 x1 probably will run at 1GB/s = 1000MB/s, Not a big loss for SFP+ 10G, Untested. </br>
 Maybe Bios does Not detect TB4 card if Not installed in the "recommended" PCIe slot. </br>
+More Tests Needed. </br>
 
 ### Other differences: </br>
 
