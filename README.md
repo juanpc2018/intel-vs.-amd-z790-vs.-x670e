@@ -18,15 +18,16 @@ has [B650 Non-E](https://www.digitalcitizen.life/x670e-x670-b650e-b650-chipsets/
 according to Block Diagram, PCIe v5 support comes from the CPU, Not the Chipset, </br>
 but PCIe x16 v5 requires a switch IC to share lanes when M.2 PCIe v5 is connected, </br>
 B650 LiveMixer does Not have a switch ic, like Z790 & X670E </br>
-i guess: CPU lanes are set Fixed by UEFI to PCIe x16 v4 to enable M.2 PCIe v5 "The most common set-up anyway". </br>
+CPU lanes are set Fixed by UEFI to PCIe x16 v4 to enable M.2 PCIe v5 "The most common set-up anyway". </br>
 
 PCIe v5 x16 would be for RAID cards like HighPoint [7608A](https://www.youtube.com/watch?v=IrsV-7knzME) & [1608](https://www.youtube.com/watch?v=suFHJYd_kks).[A](https://www.youtube.com/watch?v=dq8XnVIVJ_g) </br>
 GPU would have to be moved to the x4 or x1 slot or iGPU Only. </br>
 but B650 does Not have PCIe v5 x16, like Z790 or X670E, but All have M.2 PCIe v5 </br>
+B650 LiveMixer is the only AMD board that has x16 x4 x4 electrical with 3x x16 plastic slots, like to Z790 LiveMixer. </br>
 
-[B650 LiveMixer](https://www.asrock.com/mb/AMD/B650%20LiveMixer/Specification.us.asp) has 3x PCIe v4 x16, electrically: x16 x4 x4. </br>
-[X670E PG Lightning](https://pg.asrock.com/MB/AMD/X670E%20PG%20Lightning/index.asp) has 1x PCIe v5 x16 + 2x PCIe v4 x16 "x4 x1" + 1x PCIe x1 v4. </br>
-[Z790 LiveMixer](https://www.asrock.com/mb/Intel/Z790%20LiveMixer/Specification.asp) has 1x PCIe v5 x16 + 2x PCIe v4 x16 "x4 x4" + 1x PCIe x1 v4. </br>
+[B650 LiveMixer](https://www.asrock.com/mb/AMD/B650%20LiveMixer/Specification.us.asp) has 3x PCIe v4 x16 electrical: x16 x4 x4. </br>
+[X670E PG Lightning](https://pg.asrock.com/MB/AMD/X670E%20PG%20Lightning/index.asp) has 1x PCIe v5 x16 + 2x PCIe v4 x16 slots "x4 x1" + 1x PCIe x1 v4. </br>
+[Z790 LiveMixer](https://www.asrock.com/mb/Intel/Z790%20LiveMixer/Specification.asp) has 1x PCIe v5 x16 + 2x PCIe v4 x16 slots "x4 x4" + 1x PCIe x1 v4. </br>
 
 B650 LiveMixer has 2x SATA-III 6Gbps </br>
 X670E & Z790 have 4x SATA-III 6Gbps </br>
