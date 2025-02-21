@@ -61,7 +61,7 @@ could work for lower I/O channel count, Not the whole [2x 32-channel DigiLink™
 
 1x Thundebolt4 PCIe card in PCIe x1 slot + 1x TB3 cable port. </br>
 and leave the other PCIe v4 x4 for other card. </br>
-more requires to move the Thunderbolt4 card to the x4 PCIe slot. </br>
+more requires to move the Thunderbolt4 card to the x4 PCIe slot in the X670E PG Lightning, Not in the others. </br>
 
 physical level: Thunderbolt 1 & 2 bandwidth are same. </br>
 TB 1 & 2 cabling same. </br>
