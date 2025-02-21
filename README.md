@@ -36,7 +36,7 @@ There is No 100% equivalent on AMD of intel Z790 LiveMixer </br>
 X670E PG Lightning vs. B650 LiveMixer </br>
 you win some, you lose some, depends on your needs. </br>
 
-for example: </br>
+### example: </br>
 does [Thunderbolt 4 AIC PCIe card](https://www.asrock.com/mb/spec/product.asp?Model=Thunderbolt%204%20AIC) work in x1 electric PCIe v4 slot? </br>
 TB4 card requires to change 1x jumper on the TB4 card for AMD boards. </br>
 
@@ -76,7 +76,7 @@ but cards do Not support PCIe v4 x1 only PCIe v2 maybe v3 </br>
 
 IF cards support v3 x1 probably will run at 1GB/s = 1000MB/s, Not a big loss for SFP+ 10G </br>
 
-Other differences: </br>
+#### Other differences: </br>
 
 X670E PG Lightning CPU Power connector is 8+4  
 Z790 LiveMixer is 8+8 </br>
@@ -90,17 +90,22 @@ Contact: Molex 44476-1112 (HCS) or equivalent (Mating motherboard connector Mole
 2.3A per wire x 12v = 8+4 = 27.6 x 6 = 165.6 watts. </br>
 8+8 = 27.6 x 8 = 220.8 watts. </br>
 24-Pin connector has +12v Pins 10 & 11 = 2.3A * 12 * 2 = 55 watts + 8+6 "165watts" = 220 watts. </br>
-8+4 seem enough, but depends on PCIe configuration. </br>
-Each PCIe x4 electric slot are limited to [25w](https://en.wikipedia.org/wiki/PCI_Express#Power) = 220w - 25w = 195w - 25w = 170w </br>
+Maximum 12-pin 6+6 connector can output a maximum of 648 W (12V, 9A), 2x 150 W 8-pin can be combined via an adapter cable to form one 648 W 12-pin. </br>
+EPS12v specification has 75w limit for each 4-pin CPU connector, 8+4 = 225watts. </br>
+8+4 seem enough, but depends on PCIe configuration, PSU CPU cables must be true [AWG16](https://www.powerstream.com/Wire_Size.htm), Not rubber AWG16. </br>
+
+Each PCIe x4 electric slot is limited to [25w](https://en.wikipedia.org/wiki/PCI_Express#Power) = 220w - 25w = 195w - 25w = 170w </br>
 Each x1 PCIe slot is limited to 0.5A at +12V (6W) 10W combined. </br>
-x16 graphics card that does Not have VGA 6-pin power connector, like some GTX 1050 Ti, RTX A2000 may draw up to 5.5A at +12 V (66 W) 75 W combined. </br>
+x16 graphics card that does Not have VGA 6-pin power connector, like some GTX 1050 Ti, RTX A2000 draw up to 5.5A at +12V (66W) 75W combined. </br>
 Optional connectors add: +75W (6-pin) & +150W (8-pin) of +12V. </br>
+
+#### SATA-III
 
 Z790 LiveMixer has 4x SATA-III 6Gbps connectors in 1x large connector, </br>
 X670E PG Lightning has 4x SATA-III 6Gbps connectors separated in pairs. </br>
 B650 LiveMixer has 2x SATA-III 6Gbps connectors. </br>
 
-same: </br>
+### Same: </br>
 TBT Thunderbolt4 header. </br>
 1x PCIe v5 x16 shared with M.2 PCIe v5 x4 slot 1, using a switch in Z790 and X670E. </br>
 1x PCIe v4 connector x1 electrical, Not available in B650 LiveMixer </br>
