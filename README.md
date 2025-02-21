@@ -44,7 +44,7 @@ X670E PG Lightning vs. B650 LiveMixer </br>
 you win some, you lose some, depends on your needs. </br>
 
 ### example: </br>
-does [Thunderbolt 4 AIC PCIe card](https://www.asrock.com/mb/spec/product.asp?Model=Thunderbolt%204%20AIC) work in x1 electric PCIe v4 slot? </br>
+¿ Does [Thunderbolt 4 AIC PCIe card](https://www.asrock.com/mb/spec/product.asp?Model=Thunderbolt%204%20AIC) work in x1 electric PCIe v4 slot? </br>
 TB4 card requires to change 1x jumper on the TB4 card for AMD boards. </br>
 
 TB4 has a maximum thoughput of 40 Gb/s but... thats Not always used, Not in my case. </br>
