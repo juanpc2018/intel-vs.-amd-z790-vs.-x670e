@@ -81,7 +81,7 @@ Z790 LiveMixer is 8+8 </br>
 B650 LiveMixer is 8+8 </br>
 
 ¿ is 8+4 enough for AMD 16-core 9950x or 7950x 170w ? </br>
-or will happen the same to [Nvidia 4090 power connector?](https://en.wikipedia.org/wiki/16-pin_12VHPWR_connector#Reliability_and_design_changes) </br>
+or will happen the same to [Nvidia 4090 power connector](https://en.wikipedia.org/wiki/16-pin_12VHPWR_connector#Reliability_and_design_changes)? </br>
 [AWG18](https://www.powerstream.com/Wire_Size.htm) +12V Power Connector: </br>
 Molex* 39-01-2040 or equivalent. </br>
 Contact: Molex 44476-1112 (HCS) or equivalent (Mating motherboard connector is Molex 39-29-9042 or equivalent). </br>
