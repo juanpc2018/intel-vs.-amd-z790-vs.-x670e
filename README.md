@@ -51,11 +51,11 @@ PCIe v4 x1 = PCIe v3 x2 = PCIe v2 x4 </br>
 Avid HDX PCIe card requires PCIe v2 x4 = 16 Gbits = 2 GB/s = 2000 MB/s </br>
 works on Macmini 2014 [Thunderbot 2](https://en.wikipedia.org/wiki/Thunderbolt_(interface)#Thunderbolt_2) at 20 Gbit/s ("2.5GB/s") </br>
 PCIe v4 x1 = PCIe v2 x4, in theory should work </br>
-IF TB4 card supports v4 x1, but [manual](https://www.asrock.com/mb/spec/product.asp?Model=Thunderbolt%204%20AIC#Manual) say does Not.
-TB4 AIC [Version2.0](https://www.asrock.com/mb/spec/product.asp?Model=Thunderbolt%204%20AIC%20R2.0#Support) also does Not.
+IF TB4 card supports v4 x1, but [manual](https://www.asrock.com/mb/spec/product.asp?Model=Thunderbolt%204%20AIC#Manual) say does Not. </br>
+TB4 AIC [Version2.0](https://www.asrock.com/mb/spec/product.asp?Model=Thunderbolt%204%20AIC%20R2.0#Support) also does Not. </br>
 Only supports PCIe v3 x4, working at x1 = 8 Gbits per lane = 1 GB/s = 1000 MB/s per lane. </br>
 half the speed required for max operation, </br>
-could work for lower I/O channel count, Not the [Two 32-channel DigiLink™ Mini connectors (64 i/o channels total)](https://cdn-www.avid.com/-/media/avid/files/products-pdf/carbon/pro-tools-carbon-vs-hdx-mtrx-studio-bundle-comparison.pdf) </br>
+could work for lower I/O channel count, Not the whole [2x 32-channel DigiLink™ Mini connectors (64 i/o channels total)](https://cdn-www.avid.com/-/media/avid/files/products-pdf/carbon/pro-tools-carbon-vs-hdx-mtrx-studio-bundle-comparison.pdf) </br>
 
 1x Thundebolt4 PCIe card in PCIe x1 slot + 1x TB3 cable port. </br>
 and leave the other PCIe v4 x4 for other card. </br>
