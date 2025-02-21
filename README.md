@@ -86,7 +86,7 @@ B650 LiveMixer is 8+8 </br>
 or will happen the same as [Nvidia 4090 power connector](https://en.wikipedia.org/wiki/16-pin_12VHPWR_connector#Reliability_and_design_changes)? </br>
 [AWG18](https://www.powerstream.com/Wire_Size.htm) +12V Power Connector: </br>
 Molex* 39-01-2040 or equivalent. </br>
-Contact: Molex 44476-1112 (HCS) or equivalent (Mating motherboard connector is Molex 39-29-9042 or equivalent). </br>
+Contact: Molex 44476-1112 (HCS) or equivalent (Mating motherboard connector Molex 39-29-9042 or equivalent). </br>
 2.3A per wire x 12v = 8+4 = 27.6 x 6 = 165.6 watts. </br>
 8+8 = 27.6 x 8 = 220.8 watts. </br>
 24-Pin connector has +12v Pins10 & 11 = 2.3A * 12 * 2 = 55 watts + 8+6 "165watts" = 220 watts. </br>
