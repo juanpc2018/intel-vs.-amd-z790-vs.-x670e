@@ -105,6 +105,7 @@ requires PCIe v2 x4 ("2GB/s / 16Gbit/s / 2000 MB/s") = PCIe v3 x2 = PCIe v4 x1. 
 
 but cards do Not support PCIe v4 x1, Only PCIe v2 maybe v3 </br>
 IF cards support v3 x1 probably will run at 1GB/s = 1000MB/s, Not a big loss for SFP+ 10G, Untested. </br>
+
 Maybe Bios does Not detect TB4 card if Not installed in the "recommended" PCIe slot. </br>
 More Tests Needed. </br>
 
