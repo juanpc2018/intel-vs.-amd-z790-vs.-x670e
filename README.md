@@ -55,7 +55,7 @@ ASRock TB4 PCIe card claims its PCIe v3 x4 = 4 GB/s = 4000 MB/s = [32 Gbit/s](ht
 Razer Core X Chroma [eGPU](https://egpu.io/best-egpu-buyers-guide/) chassis is PCIe v3, and Thunderbolt3. </br>
 Thunderbolt3 has 4x lanes of PCI Express 3.0 (32.4 Gbit/s) 4 GB/s = 4000 MB/s. </br>
 PCIe v4 x1 has a thoughput of [2GB/s](https://en.wikipedia.org/wiki/PCI_Express#Comparison_table) "16 Gbit/s = 2000 MB/s" </br>
-............ PCIe v4 x1 = PCIe v3 x2 = PCIe v2 x4 </br>
+____________ PCIe v4 x1 = PCIe v3 x2 = PCIe v2 x4 </br>
 PCIe v5 x1 = PCIe v4 x2 = PCIe v3 x4 = PCIe v2 x8 </br>
 PCIe v5 x2 = PCIe v4 x4 = PCIe v3 x8 = PCIe v2 x16 </br>
 PCIe v5 x4 = PCIe v4 x8 = PCIe v3 x16 </br>
