@@ -27,21 +27,23 @@ X670E has 1x 20 Gbps [USB-C 3.2 Gen2x2](https://en.wikipedia.org/wiki/USB_3.0#US
 B650 & Z790 has 1x Front Panel USB-C 3.2 Gen2x2 Header, requires a special connector / case, Not included. </br>
 there are PCIe Brackets $20usd. to $50usd. depending on cable lenght. </br>
 
-For Booting Linux on external USB-C 3.2 2x2 is faster on X670E </br>
+For Booting Linux on external is faster on USB-C 3.2 2x2, </br> 
+X670E does Not require special cable, has rear connector. </br>
 requires a 20G USB 3.2 or 40G USB 4.0 [Orico M.2 NVMe & SATA SSD Drive Enclosure](https://www.orico.cc/us/product/subcategory/115.html) or similar, </br>
-booting using Thunderbolt3/4 + eGPU + M.2 to PCIe x4 card is another option. </br>
+booting using Thunderbolt3/4 + eGPU + M.2 to PCIe card is another option. </br>
 
-There is No 100% equivalent on AMD of intel Z790 LiveMixer, </br>
+There is No 100% equivalent on AMD of intel Z790 LiveMixer </br>
 X670E PG Lightning vs. B650 LiveMixer </br>
 you win some, you lose some, depends on your needs. </br>
 
-for example:</br>
-does [Thunderbolt 4 AIC PCIe x4 card](https://www.asrock.com/mb/spec/product.asp?Model=Thunderbolt%204%20AIC) work in x1 electric PCIe v4 slot? </br>
-TB4 card requires to change 1 jumper on the TB4 card, for AMD boards. </br>
+for example: </br>
+does [Thunderbolt 4 AIC PCIe card](https://www.asrock.com/mb/spec/product.asp?Model=Thunderbolt%204%20AIC) work in x1 electric PCIe v4 slot? </br>
+TB4 card requires to change 1x jumper on the TB4 card for AMD boards. </br>
 
 TB4 has a maximum thoughput of 40 Gb/s but... thats Not always used, Not in my case. </br>
 im Not using all features / bandwith of Thunderbolt 4 </br>
 ASRock TB4 PCIe card claims its PCIe v3 x4 = 4 GB/s = 4000 MB/s = 32 Gbit/s "8 Gbits = 1 GB/s = 1000 MB/s per lane." </br>
+40 Gb/s must be including the USB header. </br>
 
 Razer Core X Chroma [eGPU](https://egpu.io/best-egpu-buyers-guide/) chassis is PCIe v3, and Thunderbolt3. </br>
 Thunderbolt3 has maximum througput of 40 Gbit/s (5 GB/s = 5000 MB/s). </br>
