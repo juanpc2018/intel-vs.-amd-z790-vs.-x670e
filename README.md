@@ -89,8 +89,11 @@ Molex* 39-01-2040 or equivalent. </br>
 Contact: Molex 44476-1112 (HCS) or equivalent (Mating motherboard connector Molex 39-29-9042 or equivalent). </br>
 2.3A per wire x 12v = 8+4 = 27.6 x 6 = 165.6 watts. </br>
 8+8 = 27.6 x 8 = 220.8 watts. </br>
-24-Pin connector has +12v Pins10 & 11 = 2.3A * 12 * 2 = 55 watts + 8+6 "165watts" = 220 watts. </br>
-8+4 its enough. </br>
+24-Pin connector has +12v Pins 10 & 11 = 2.3A * 12 * 2 = 55 watts + 8+6 "165watts" = 220 watts. </br>
+8+4 seem enough, but depends on PCIe configuration. </br>
+Each PCIe x4 electric slot are limited to [25w](https://en.wikipedia.org/wiki/PCI_Express#Power) = 220w - 25w = 195w - 25w = 170w </br>
+Each x1 PCIe slot is limited to 0.5A at +12V (6W) and 10W combined. </br>
+x16 graphics card that does Not have VGA 6-pin power connector, like some GTX 1050 Ti, may draw up to 5.5A at +12 V (66 W) and 75 W combined. </br>
 
 Z790 LiveMixer has 4x SATA-III 6Gbps connectors in 1x large connector, </br>
 X670E PG Lightning has 4x SATA-III 6Gbps connectors separated in pairs. </br>
