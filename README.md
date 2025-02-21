@@ -47,18 +47,20 @@ you win some, you lose some, depends on your needs. </br>
 ### example: </br>
 
 ¿Does [Thunderbolt 4 AIC PCIe card](https://www.asrock.com/mb/spec/product.asp?Model=Thunderbolt%204%20AIC) work in x1 electric PCIe v4 slot? </br>
-TB4 box comes with a install guide paper, but instructions are incomplete / outdated </br>
+TB4 box comes with an install guide paper, but instructions are incomplete / outdated </br>
 [download .pdf](https://download.asrock.com/Manual/Thunderbolt%204%20AIC.pdf) </br>
 AMD boards require to change 1x jumper on TB4 card. </br>
 .pdf has a list of supported Motherboards, and recommended PCIe slot. </br>
-some boards are PCIe slot4 like Z790 LiveMixer, others PCIe slot3 like X670E PG Lightning, and others PCIe slot2 like B650 LiveMixer. </br>
+
+some boards are PCIe slot4 like Z790 LiveMixer, </br>
+others PCIe slot3 like X670E PG Lightning, and others PCIe slot2 like B650 LiveMixer. </br>
 Z790 PCIe slot4 goes to Z790 chipset </br>
 X670E PCIe slot3 goes to CPU. </br>
 B650 LiveMixer PCIe slot2 goes to CPU. </br>
 
 Z790 LiveMixer TB4 card does Not work when using 12th gen CPU like i3-12100 + latest Bios/Uefi 18.x designed for 14gen CPU´s, </br>
 TB4 card works OK with [UEFI v9.03](https://www.asrock.com/mb/Intel/Z790%20LiveMixer/Specification.asp#BIOS) because it´s Universal, works with 12, 13 & 14th gen CPU´s </br>
-older Bios does Not support 14th gen CPU´s. </br>
+Early Bios does Not support 14th gen CPU´s. </br>
 
 AMD boards: To Be Tested... </br>
 
@@ -82,7 +84,7 @@ works on Macmini 2014 [Thunderbot 2](https://en.wikipedia.org/wiki/Thunderbolt_(
 PCIe v4 x1 = PCIe v2 x4, in theory should work </br>
 IF TB4 card supports v4 x1, but [manual](https://www.asrock.com/mb/spec/product.asp?Model=Thunderbolt%204%20AIC#Manual) say does Not. </br>
 TB4 AIC [Version2.0](https://www.asrock.com/mb/spec/product.asp?Model=Thunderbolt%204%20AIC%20R2.0#Support) also does Not. </br>
-Only supports PCIe v3 x4, working at x1 = 8 Gbits per lane = 1 GB/s = 1000 MB/s per lane. </br>
+TB4 card only support PCIe v3 x4, working at x1 = 8 Gbits per lane = 1 GB/s = 1000 MB/s per lane. </br>
 half the speed required for max operation, </br>
 could work for lower I/O channel count, Not the whole [2x 32-channel mini DigiLink™ connectors (64 channel total)](https://cdn-www.avid.com/-/media/avid/files/products-pdf/carbon/pro-tools-carbon-vs-hdx-mtrx-studio-bundle-comparison.pdf) </br>
 
@@ -101,7 +103,7 @@ requires PCIe v2 x4 ("2GB/s / 16Gbit/s / 2000 MB/s") = PCIe v3 x2 = PCIe v4 x1. 
 
 but cards do Not support PCIe v4 x1, Only PCIe v2 maybe v3 </br>
 IF cards support v3 x1 probably will run at 1GB/s = 1000MB/s, Not a big loss for SFP+ 10G, Untested. </br>
-Maybe Bios does Not detect TB4 card if Not installed in the "recommended PCIe slot". </br>
+Maybe Bios does Not detect TB4 card if Not installed in the "recommended" PCIe slot. </br>
 
 ### Other differences: </br>
 
