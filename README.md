@@ -95,7 +95,7 @@ Mating motherboard connector Molex 39-29-9042 or equivalent). </br>
 [EPS12v specification](https://web.archive.org/web/20201205140420/http://www.enermax.cn/enermax_pdf/EPS12V%20Spec2_92.pdf) has a recommended limit of 240VA for each 4-pin 12v CPU conector, </br>
 Assuming 75w limit each 4-pin CPU connector, 8+4 = 225watts. </br>
 8+4 seem enough, but depends... on PCIe configuration and PSU cables, AWG must be true [AWG16](https://www.powerstream.com/Wire_Size.htm), Not rubber AWG16. </br>
-3.7A per wire at 12V = 44.4watts per wire, 4-pin connector has 2x +12v = 88watts maximum, </br>
+3.7A per AWG18 wire x 12V = 44.4watts, 4-pin connector has 2x +12v = 88watts maximum- </br>
 theoretic maximum 264watts for AWG16 8+4 CPU connector or 165watts for AWG18. </br>
 
 Each PCIe x4 electric slot is limited to [25w](https://en.wikipedia.org/wiki/PCI_Express#Power) = 220w "AWG18" - 25w = 195w - 25w = 170w </br>
