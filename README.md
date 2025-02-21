@@ -18,7 +18,7 @@ has [B650 Non-E](https://www.digitalcitizen.life/x670e-x670-b650e-b650-chipsets/
 according to Block Diagram, PCIe v5 support comes from the CPU, Not the Chipset, </br>
 but PCIe x16 v5 requires a switch IC to share lanes when M.2 PCIe v5 is connected, </br>
 B650 LiveMixer does Not have a switch ic, like Z790 & X670E </br>
-CPU lanes are set Fixed by UEFI to PCIe x16 v4 to enable M.2 PCIe v5 "The most common set-up anyway". </br>
+CPU lanes are set Fixed by UEFI to PCIe x16 v4 to enable M.2 PCIe v5 "The most common set-up". </br>
 
 PCIe v5 x16 could be used for RAID cards like HighPoint [7608A](https://www.youtube.com/watch?v=IrsV-7knzME) & [1608](https://www.youtube.com/watch?v=suFHJYd_kks).[A](https://www.youtube.com/watch?v=dq8XnVIVJ_g) </br>
 GPU would have to be moved to x4 or x1 slot or use iGPU Only. </br>
