@@ -18,8 +18,8 @@ has [B650 Non-E](https://www.digitalcitizen.life/x670e-x670-b650e-b650-chipsets/
 according to Block Diagram, PCIe v5 support comes from the CPU, Not the Chipset. </br>
 
 [B650 LiveMixer](https://www.asrock.com/mb/AMD/B650%20LiveMixer/Specification.us.asp#Specification) has 3x PCIe v4 x16, electrically: x16 x4 x4. </br>
-[X670E PG Lightning](https://pg.asrock.com/MB/AMD/X670E%20PG%20Lightning/index.asp) has 1x PCIe v5 x16 | 2x PCIe v4 x16 electrical: x4 x1 + 1x PCIe x1. </br>
-[Z790 LiveMixer](https://www.asrock.com/mb/Intel/Z790%20LiveMixer/Specification.asp) has 1x PCIe v5 x16 | 2x PCIe v4 x16 electrical: x4 x4 + 1x PCIe x1. 
+[X670E PG Lightning](https://pg.asrock.com/MB/AMD/X670E%20PG%20Lightning/index.asp) has 1x PCIe v5 x16 + 2x PCIe v4 x16 "x4 x1" + 1x PCIe x1 v4. </br>
+[Z790 LiveMixer](https://www.asrock.com/mb/Intel/Z790%20LiveMixer/Specification.asp) has 1x PCIe v5 x16 + 2x PCIe v4 x16 "x4 x4" + 1x PCIe x1 v4. </br>
 
 B650 LiveMixer has 2x SATA-III 6Gbps </br>
 X670E & Z790 have 4x SATA-III 6Gbps </br>
