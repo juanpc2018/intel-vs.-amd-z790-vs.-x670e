@@ -21,7 +21,7 @@ B650 LiveMixer does Not have a switch ic, like Z790 & X670E </br>
 CPU lanes are set Fixed by UEFI to PCIe x16 v4 to enable M.2 PCIe v5 "The most common set-up". </br>
 
 PCIe v5 x16 could be used for RAID cards like HighPoint [7608A](https://www.youtube.com/watch?v=IrsV-7knzME) & [1608](https://www.youtube.com/watch?v=suFHJYd_kks).[A](https://www.youtube.com/watch?v=dq8XnVIVJ_g) </br>
-GPU would have to be moved to x4 or x1 slot or use iGPU Only. </br>
+GPU would have to be moved to x4 or x1 slot or use iGPU. </br>
 B650 does Not have PCIe v5 x16, like Z790 or X670E, but All have M.2 PCIe v5 </br>
 B650 LiveMixer is the only AMD board that has x16 x4 x4 electrical with 3x x16 plastic slots, similar to Z790 LiveMixer. </br>
 
