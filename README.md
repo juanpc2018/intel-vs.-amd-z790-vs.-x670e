@@ -134,7 +134,7 @@ x16 graphics card that does Not have VGA 6-pin power connector, like some GTX 10
 Optional VGA connectors add: +75W (6-pin) / +150W (8-pin) of +12V. </br>
 8+4 Works but requires a well designed PSU. </br>
 
-IF disable "HyperThreading" CPU SMT, ACME PSU or Overclocking could work. </br>
+IF disable "HyperThreading / CPU SMT" an ACME PSU or Overclocking work. </br>
 
 ### SATA-III
 
