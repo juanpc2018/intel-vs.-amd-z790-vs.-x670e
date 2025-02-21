@@ -76,7 +76,7 @@ but cards do Not support PCIe v4 x1 only PCIe v2 maybe v3 </br>
 
 IF cards support v3 x1 probably will run at 1GB/s = 1000MB/s, Not a big loss for SFP+ 10G </br>
 
-#### Other differences: </br>
+### Other differences: </br>
 
 X670E PG Lightning CPU Power connector is 8+4  
 Z790 LiveMixer is 8+8 </br>
@@ -99,13 +99,14 @@ Each x1 PCIe slot is limited to 0.5A at +12V (6W) 10W combined. </br>
 x16 graphics card that does Not have VGA 6-pin power connector, like some GTX 1050 Ti, RTX A2000 draw up to 5.5A at +12V (66W) 75W combined. </br>
 Optional connectors add: +75W (6-pin) & +150W (8-pin) of +12V. </br>
 
-#### SATA-III
+### SATA-III
 
 Z790 LiveMixer has 4x SATA-III 6Gbps connectors in 1x large connector, </br>
 X670E PG Lightning has 4x SATA-III 6Gbps connectors separated in pairs. </br>
 B650 LiveMixer has 2x SATA-III 6Gbps connectors. </br>
 
 ### Same: </br>
+
 TBT Thunderbolt4 header. </br>
 1x PCIe v5 x16 shared with M.2 PCIe v5 x4 slot 1, using a switch in Z790 and X670E. </br>
 1x PCIe v4 connector x1 electrical, Not available in B650 LiveMixer </br>
