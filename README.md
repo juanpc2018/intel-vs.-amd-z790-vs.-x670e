@@ -18,16 +18,16 @@ has [B650 Non-E](https://www.digitalcitizen.life/x670e-x670-b650e-b650-chipsets/
 according to Block Diagram, PCIe v5 support comes from the CPU, Not the Chipset, </br>
 but PCIe x16 v5 requires a switch IC to share lanes when M.2 PCIe v5 is connected, </br>
 B650 LiveMixer does Not have a switch ic, like Z790 & X670E </br>
+
 CPU lanes are set Fixed by UEFI to PCIe x16 v4 to enable M.2 PCIe v5 "The most common set-up". </br>
+B650 does Not have PCIe v5 x16, like Z790 or X670E, but All have M.2 PCIe v5 IF CPU is 7000, 9000 or 4004. </br>
+B650 LiveMixer is the only AMD board that has x16 x4 x4 electrical with 3x x16 plastic slots, similar to Z790 LiveMixer. </br>
 
 PCIe v5 x16 could be used for RAID cards like: </br>
 HighPoint [7608A](https://www.youtube.com/watch?v=IrsV-7knzME) HW & [1608](https://www.youtube.com/watch?v=suFHJYd_kks).[A](https://www.youtube.com/watch?v=dq8XnVIVJ_g) SW, ASUS Hyper M.2 x16 [Gen5](https://www.asus.com/motherboards-components/motherboards/accessories/hyper-m-2-x16-gen5-card/) 4x NVMe, Sonnet [8x4 PCIe v4](https://www.sonnettech.com/product/m2-8x4-pcie-card/overview.html) or Areca [ARC-1886-xNxI](https://www.areca.us/products/nvme-1886.html) </br>
 GPU would have to be moved to x4 or x1 slot or use iGPU. </br>
 AMD most powerful iGPU is the [8700G CPU](https://www.amd.com/en/products/processors/desktops/ryzen/8000-series/amd-ryzen-7-8700g.html) but does Not have PCIe v5, but has A.i. NPU. </br>
 Ryzen [7000](https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600x.html), [9000](https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600x.html) & Epyc [4004](https://www.amd.com/en/products/processors/server/epyc/4004-series/amd-epyc-4124p.html) series for AM5 have PCIe v5
-
-B650 does Not have PCIe v5 x16, like Z790 or X670E, but All have M.2 PCIe v5 </br>
-B650 LiveMixer is the only AMD board that has x16 x4 x4 electrical with 3x x16 plastic slots, similar to Z790 LiveMixer. </br>
 
 [B650 LiveMixer](https://www.asrock.com/mb/AMD/B650%20LiveMixer/Specification.us.asp) has 3x PCIe v4 x16 electrical: x16 x4 x4. </br>
 [X670E PG Lightning](https://pg.asrock.com/MB/AMD/X670E%20PG%20Lightning/index.asp) has 1x PCIe v5 x16 + 2x PCIe v4 x16 slots "x4 x1" + 1x PCIe x1 v4 = x16 x4 x1 x1. </br>
