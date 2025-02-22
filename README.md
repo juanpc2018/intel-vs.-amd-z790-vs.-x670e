@@ -126,14 +126,16 @@ B650 LiveMixer is 8+8 </br>
 ¿ is 8+4 enough for AMD 16-core 9950x or 7950x 170w ? </br>
 or will happen the same as [Nvidia 4090 power connector](https://en.wikipedia.org/wiki/16-pin_12VHPWR_connector#Reliability_and_design_changes)? </br>
 
-[AWG18](https://www.powerstream.com/Wire_Size.htm) 12V Power Connector: </br>
-Molex* 39-01-2040 or equivalent, </br>
+EPS12V [AWG18](https://www.powerstream.com/Wire_Size.htm) 12V Power Connector: </br>
+Molex: 39-01-2040 or equivalent, </br>
 Contact: Molex 44476-1112 (HCS) or equivalent </br>
-Mating motherboard connector Molex 39-29-9042 or equivalent). </br>
-2.3A per AWG18 wire x 12v = 8+4 = 27.6 </br>
-8+4 = 27.6 x 6 = 165.6 watts. </br>
-8+8 = 27.6 x 8 = 220.8 watts. </br>
-24-Pin connector has +12v Pins 10 & 11 = 2.3A * 12 * 2 = 55 watts
+Motherboard connector: Molex 39-29-9042 or equivalent. </br>
+8-pin EPS12V / CPU connector is opposite of [VGA / PCIe 8-pin](https://en.wikipedia.org/wiki/PCI_Express#6-_and_8-pin_power_connectors) power connector. </br>
+
+2.3A per AWG18 wire x 12v = 27.6 </br>
+8+4 = 27.6 x 6-wires = 165.6 watts. </br>
+8+8 = 27.6 x 8-wires = 220.8 watts. </br>
+24-Pin connector has +12v Pins 10 & 11 = 2.3A * 12 * 2-wire = 55 watts </br>
 8+6 "165watts" + 55watts = 220watts minus PCIe +12v & RAM power consumption. </br>
 
 [EPS12v specification](https://web.archive.org/web/20201205140420/http://www.enermax.cn/enermax_pdf/EPS12V%20Spec2_92.pdf) has a recommended limit of 240VA for each 4-pin 12v CPU conector, </br>
