@@ -155,6 +155,7 @@ Each x1 PCIe slot is limited to 0.5A at +12V (6W) 10W combined. </br>
 x16 graphics card that does Not have VGA 6-pin power connector, like some GTX 1050 Ti, RTX A2000 draw up to 5.5A at +12V (66W) 75W combined. </br>
 Optional VGA connectors add: +75W (6-pin) / +150W (8-pin) of +12V. </br>
 M.2 drives draw up to 12watts each. </br>
+X670E consumes twice vs. B650. </br>
 
 8+4 Works but requires a well designed PSU. </br>
 IF disable "HyperThreading / CPU SMT", ACME PSU or Overclocking could work. </br>
