@@ -73,7 +73,7 @@ AMD boards: To Be Tested... </br>
 
 TB4 has a maximum thoughput of 40 Gb/s but... thats Not always used, Not in my case. </br>
 im Not using all features / bandwith of Thunderbolt 4 </br>
-ASRock TB4 AIC [Version1.0](https://www.asrock.com/mb/spec/product.asp?Model=Thunderbolt%204%20AIC) card claims is PCIe v3 x4 = 4 GB/s = 4000 MB/s = [32 Gbit/s](https://en.wikipedia.org/wiki/Thunderbolt_(interface)#Thunderbolt_3) "8 Gbits = 1 GB/s = 1000 MB/s per lane." </br>
+ASRock TB4 AIC [Version1.0](https://www.asrock.com/mb/spec/product.asp?Model=Thunderbolt%204%20AIC) claims is PCIe v3 x4 = 4 GB/s = 4000 MB/s = [32 Gbit/s](https://en.wikipedia.org/wiki/Thunderbolt_(interface)#Thunderbolt_3) "8 Gbits = 1 GB/s = 1000 MB/s per lane." </br>
 40 Gb/s combined including 4 lanes of DisplayPort. </br>
 
 Razer Core X Chroma [eGPU](https://egpu.io/best-egpu-buyers-guide/) chassis is PCIe v3, and Thunderbolt3. </br>
