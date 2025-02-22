@@ -35,7 +35,7 @@ intel 4c/8t [i3-12100](https://www.intel.com/content/www/us/en/products/sku/1345
 [Z790 LiveMixer](https://www.asrock.com/mb/Intel/Z790%20LiveMixer/Specification.asp) has 1x PCIe v5 x16 + 2x PCIe v4 x16 slots "x4 x4" + 1x PCIe x1 v4 = x16 x4 x4 x1. </br>
 
 v4 x4 slot can be used for Thunderbolt4 card, or 10GbE SFP+ Ethernet card or more [SATA-III 6Gbps](http://ableconn.com/products_2.php?gid=163) ports or more [M.2 ports](http://ableconn.com/products_2.php?gid=106), </br>
-or M.2 Raid card like [Ableconn PEXM2-130 PCIe Dual NVMe M.2](http://ableconn.com/products_2.php?gid=143) </br>
+or M.2 Raid card like [Ableconn PEXM2-130  Dual NVMe M.2](http://ableconn.com/products_2.php?gid=143) </br>
 
 B650 LiveMixer has 2x SATA-III 6Gbps </br>
 X670E & Z790 have 4x SATA-III 6Gbps </br>
