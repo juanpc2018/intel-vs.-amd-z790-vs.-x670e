@@ -30,8 +30,8 @@ B650 LiveMixer is the only AMD board that has x16 x4 x4 electrical with 3x x16 p
 [X670E PG Lightning](https://pg.asrock.com/MB/AMD/X670E%20PG%20Lightning/index.asp) has 1x PCIe v5 x16 + 2x PCIe v4 x16 slots "x4 x1" + 1x PCIe x1 v4 = x16 x4 x1 x1. </br>
 [Z790 LiveMixer](https://www.asrock.com/mb/Intel/Z790%20LiveMixer/Specification.asp) has 1x PCIe v5 x16 + 2x PCIe v4 x16 slots "x4 x4" + 1x PCIe x1 v4 = x16 x4 x4 x1. </br>
 
-v4 x4 slot can be used for Thunderbolt4 card, or 10GbE SFP+ Ethernet card or more [SATA-III 6Gbps](http://ableconn.com/products_2.php?gid=163) ports or more [M.2 ports](http://ableconn.com/products_2.php?gid=123), </br>
-or a M.2 Raid card like [Ableconn PEXM2-130 PCIe Dual NVMe M.2](http://ableconn.com/products_2.php?gid=143) </br>
+v4 x4 slot can be used for Thunderbolt4 card, or 10GbE SFP+ Ethernet card or more [SATA-III 6Gbps](http://ableconn.com/products_2.php?gid=163) ports or more [M.2 ports](http://ableconn.com/products_2.php?gid=106), </br>
+or M.2 Raid card like [Ableconn PEXM2-130 PCIe Dual NVMe M.2](http://ableconn.com/products_2.php?gid=143) </br>
 
 B650 LiveMixer has 2x SATA-III 6Gbps </br>
 X670E & Z790 have 4x SATA-III 6Gbps </br>
