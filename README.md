@@ -46,7 +46,7 @@ you win some, you lose some, depends on your needs. </br>
 
 ### example: </br>
 
-¿Does [Thunderbolt 4 AIC PCIe card](https://www.asrock.com/mb/spec/product.asp?Model=Thunderbolt%204%20AIC) "Add-In Card" work in x1 electric PCIe v4 slot? </br>
+¿Does [Thunderbolt 4 AIC PCIe](https://www.asrock.com/mb/spec/product.asp?Model=Thunderbolt%204%20AIC) "Add-In Card" work in x1 electric PCIe v4 slot? </br>
 TB4 box comes with an install guide paper, but instructions are incomplete / outdated </br>
 [download .pdf](https://download.asrock.com/Manual/Thunderbolt%204%20AIC.pdf) </br>
 AMD boards require to change 1x jumper on TB4 card. </br>
