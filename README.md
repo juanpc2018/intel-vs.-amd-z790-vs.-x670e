@@ -106,12 +106,11 @@ TB 1 & 2 cabling same. </br>
 TB 2 has channel aggregation: </br>
 2x TB-1 10 Gbit/s channels combined in 1x 20 Gbit/s channel. </br>
 
-Sonnet 10G Solo "10Gbit/s = 1.25GB/s = 1250 MB/s" PCIe SFP+ FiberOptic Network adapter </br>
-ASUS XG-C100F 10G SFP+ Network adapter or similar </br>
-requires PCIe v2 x4 ("2GB/s / 16Gbit/s / 2000 MB/s") = PCIe v3 x2 = PCIe v4 x1. </br>
-
-but cards do Not support PCIe v4 x1, Only PCIe v2 maybe v3 </br>
-IF cards support v3 x1 probably will run at 1GB/s = 1000MB/s, Not a big loss for SFP+ 10G, Untested. </br>
+Sonnet [10G Solo SFP+](https://www.sonnettech.com/product/solo10g-sfp-pcie-card.html) 10Gbit/s = 1.25GB/s = 1250 MB/s PCIe SFP+ FiberOptic Network adapter </br>
+ASUS [XG-C100F](https://www.asus.com/networking-iot-servers/wired-networking/all-series/xg-c100f/) 10G SFP+ Network adapter or similar </br>
+supports PCIe v3 x4, but works in PCIe v2 x4 ("2GB/s / 16Gbit/s / 2000 MB/s") = PCIe v3 x2 = PCIe v4 x1. </br>
+but do Not support PCIe v4 x1, Only PCIe v3 </br>
+IF card run at v3 x1, will run at 1GB/s = 1000MB/s, Not a big loss for SFP+ 10G, Untested. </br>
 
 Maybe Bios does Not detect TB4 card if Not installed in the "recommended" PCIe slot. </br>
 More Tests Needed. </br>
