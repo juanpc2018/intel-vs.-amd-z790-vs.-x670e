@@ -130,7 +130,7 @@ EPS12V [AWG18](https://www.powerstream.com/Wire_Size.htm) 12V Power Connector: <
 Molex: 39-01-2040 or equivalent, </br>
 Contact: Molex 44476-1112 (HCS) or equivalent </br>
 Motherboard connector: Molex 39-29-9042 or equivalent. </br>
-8-pin EPS12V / CPU connector is opposite of [VGA / PCIe 8-pin](https://en.wikipedia.org/wiki/PCI_Express#6-_and_8-pin_power_connectors) power connector. </br>
+8-pin EPS12V CPU power connector is Opposite of [VGA / PCIe 8-pin](https://en.wikipedia.org/wiki/PCI_Express#6-_and_8-pin_power_connectors) power connector. </br>
 
 2.3A per AWG18 wire x 12v = 27.6 </br>
 8+4 = 27.6 x 6-wires = 165.6 watts. </br>
