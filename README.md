@@ -144,10 +144,11 @@ Assuming 75w limit each 4-pin CPU connector, 8+4 = 225watts. </br>
 
 3.7A per [AWG16](https://www.powerstream.com/Wire_Size.htm) wire x 12v = 44.4 </br>
 8+4 = 44.4 x 6-wires = 266.4 watts. </br>
-8+8 = 44.4 x 8-wires = . watts. </br>
-24-Pin connector has +12v Pins 10 & 11 = 2.3A * 12 * 2-wire = 55 watts </br>
+8+8 = 44.4 x 8-wires = 355.2 watts. </br>
+24-Pin connector has +12v Pins 10 & 11 = 2.3A / 3.7A * 12 * 2-wire = 55 watts / 88 watts </br>
 theoretic maximum: </br>
-8+6 "266watts" AWG16 + 55watts/88watts AWG18/AWG16 = 321watts/354watts minus PCIe, RAM & M.2 power consumption. </br>
+8+6 "266watts" AWG16 + 55watts/88watts AWG18/AWG16 = 321watts ~ 354watts minus PCIe, RAM & M.2 power consumption. </br>
+8+8 "355watts" AWG16 + 55watts/88watts AWG18/AWG16 = 410watts ~ 443watts minus PCIe, RAM & M.2 power consumption. </br>
 
 Each PCIe x4 electric slot is limited to [25w](https://en.wikipedia.org/wiki/PCI_Express#Power) = 220w "AWG18" - 25w = 195w - 25w = 170w </br>
 Each x1 PCIe slot is limited to 0.5A at +12V (6W) 10W combined. </br>
