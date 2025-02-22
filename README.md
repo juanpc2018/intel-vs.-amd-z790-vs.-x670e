@@ -136,13 +136,18 @@ Motherboard connector: Molex 39-29-9042 or equivalent. </br>
 8+4 = 27.6 x 6-wires = 165.6 watts. </br>
 8+8 = 27.6 x 8-wires = 220.8 watts. </br>
 24-Pin connector has +12v Pins 10 & 11 = 2.3A * 12 * 2-wire = 55 watts </br>
-8+6 "165watts" + 55watts = 220watts minus PCIe +12v & RAM power consumption. </br>
+8+6 "165watts" + 55watts = 220watts minus PCIe & RAM power consumption. </br>
 
 [EPS12v specification](https://web.archive.org/web/20201205140420/http://www.enermax.cn/enermax_pdf/EPS12V%20Spec2_92.pdf) has a recommended limit of 240VA for each 4-pin 12v CPU conector, </br>
 Assuming 75w limit each 4-pin CPU connector, 8+4 = 225watts. </br>
 8+4 seem enough, but depends... on PCIe configuration, RAM and PSU cables, [AWG](https://www.powerstream.com/Wire_Size.htm) must be true [AWG16](https://www.powerstream.com/Wire_Size.htm), Not rubber AWG16. </br>
-3.7A per AWG16 x 12V = 44.4watts, 4-pin connector has 2x +12v = 88watts maximum. </br>
-theoretic maximum: 264watts for AWG16 8+4 CPU connector or 165watts for AWG18. </br>
+
+3.7A per [AWG16](https://www.powerstream.com/Wire_Size.htm) wire x 12v = 44.4 </br>
+8+4 = 44.4 x 6-wires = 266.4 watts. </br>
+8+8 = 44.4 x 8-wires = . watts. </br>
+24-Pin connector has +12v Pins 10 & 11 = 2.3A * 12 * 2-wire = 55 watts </br>
+theoretic maximum: </br>
+8+6 "266watts" AWG16 + 55watts/88watts AWG18/AWG16 = 321watts/354watts minus PCIe, RAM & M.2 power consumption. </br>
 
 Each PCIe x4 electric slot is limited to [25w](https://en.wikipedia.org/wiki/PCI_Express#Power) = 220w "AWG18" - 25w = 195w - 25w = 170w </br>
 Each x1 PCIe slot is limited to 0.5A at +12V (6W) 10W combined. </br>
