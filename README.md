@@ -21,7 +21,7 @@ B650 LiveMixer does Not have a switch ic, like Z790 & X670E </br>
 CPU lanes are set Fixed by UEFI to PCIe x16 v4 to enable M.2 PCIe v5 "The most common set-up". </br>
 
 PCIe v5 x16 could be used for RAID cards like: </br>
-HighPoint [7608A](https://www.youtube.com/watch?v=IrsV-7knzME) HW & [1608](https://www.youtube.com/watch?v=suFHJYd_kks).[A](https://www.youtube.com/watch?v=dq8XnVIVJ_g) SW, ASUS Hyper M.2 x16 [Gen5](https://www.asus.com/motherboards-components/motherboards/accessories/hyper-m-2-x16-gen5-card/) 4x NVMe, Sonnet [8x4 PCIe v4](https://www.sonnettech.com/product/m2-8x4-pcie-card/overview.html) </br>
+HighPoint [7608A](https://www.youtube.com/watch?v=IrsV-7knzME) HW & [1608](https://www.youtube.com/watch?v=suFHJYd_kks).[A](https://www.youtube.com/watch?v=dq8XnVIVJ_g) SW, ASUS Hyper M.2 x16 [Gen5](https://www.asus.com/motherboards-components/motherboards/accessories/hyper-m-2-x16-gen5-card/) 4x NVMe, Sonnet [8x4 PCIe v4](https://www.sonnettech.com/product/m2-8x4-pcie-card/overview.html) or Areca [ARC-1886-xNxI](https://www.areca.us/products/nvme-1886.html) </br>
 GPU would have to be moved to x4 or x1 slot or use iGPU. </br>
 B650 does Not have PCIe v5 x16, like Z790 or X670E, but All have M.2 PCIe v5 </br>
 B650 LiveMixer is the only AMD board that has x16 x4 x4 electrical with 3x x16 plastic slots, similar to Z790 LiveMixer. </br>
@@ -29,6 +29,9 @@ B650 LiveMixer is the only AMD board that has x16 x4 x4 electrical with 3x x16 p
 [B650 LiveMixer](https://www.asrock.com/mb/AMD/B650%20LiveMixer/Specification.us.asp) has 3x PCIe v4 x16 electrical: x16 x4 x4. </br>
 [X670E PG Lightning](https://pg.asrock.com/MB/AMD/X670E%20PG%20Lightning/index.asp) has 1x PCIe v5 x16 + 2x PCIe v4 x16 slots "x4 x1" + 1x PCIe x1 v4 = x16 x4 x1 x1. </br>
 [Z790 LiveMixer](https://www.asrock.com/mb/Intel/Z790%20LiveMixer/Specification.asp) has 1x PCIe v5 x16 + 2x PCIe v4 x16 slots "x4 x4" + 1x PCIe x1 v4 = x16 x4 x4 x1. </br>
+
+v4 x4 slot can be used for Thunderbolt4 card, or 10GbE SFP+ Ethernet card or more [SATA-III 6Gbps](http://ableconn.com/products_2.php?gid=163) ports or more [M.2 ports](http://ableconn.com/products_2.php?gid=123), </br>
+or a M.2 Raid card like [Ableconn PEXM2-130 PCIe Dual NVMe M.2](http://ableconn.com/products_2.php?gid=143) </br>
 
 B650 LiveMixer has 2x SATA-III 6Gbps </br>
 X670E & Z790 have 4x SATA-III 6Gbps </br>
