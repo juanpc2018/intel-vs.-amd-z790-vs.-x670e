@@ -85,7 +85,7 @@ works on Macmini 2014 [Thunderbot 2](https://en.wikipedia.org/wiki/Thunderbolt_(
 PCIe v4 x1 = PCIe v2 x4, in theory should work </br>
 IF TB4 card supports v4 x1, but [manual](https://www.asrock.com/mb/spec/product.asp?Model=Thunderbolt%204%20AIC#Manual) say does Not. </br>
 TB4 AIC [Version2.0](https://www.asrock.com/mb/spec/product.asp?Model=Thunderbolt%204%20AIC%20R2.0#Support) also does Not. </br>
-TB4 card only support PCIe v3 x4, working at v3 x1 = 8 Gbit/s per lane = 1 GB/s = 1000 MB/s per lane. </br>
+TB4 v1 & v2 cards only support PCIe v3 x4, working at v3 x1 = 8 Gbit/s per lane = 1 GB/s = 1000 MB/s per lane. </br>
 half the speed required for max operation, </br>
 could work for lower I/O channel count, </br>
 Not the whole [2x 32-channel mini DigiLink™ connectors (64 channel total)](https://cdn-www.avid.com/-/media/avid/files/products-pdf/carbon/pro-tools-carbon-vs-hdx-mtrx-studio-bundle-comparison.pdf) </br>
