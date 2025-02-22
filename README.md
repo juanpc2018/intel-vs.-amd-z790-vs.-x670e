@@ -27,6 +27,7 @@ HighPoint [7608A](https://www.youtube.com/watch?v=IrsV-7knzME) HW & [1608](https
 GPU would have to be moved to x4 or x1 slot or use iGPU. </br>
 AMD most powerful iGPU for AM5 is the [8700G](https://www.amd.com/en/products/processors/desktops/ryzen/8000-series/amd-ryzen-7-8700g.html) but does Not have PCIe v5, has A.i. NPU. </br>
 Ryzen [7000](https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600x.html), [9000](https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600x.html) & Epyc [4004](https://www.amd.com/en/products/processors/server/epyc/4004-series/amd-epyc-4124p.html) have PCIe v5 but dont have A.i. NPU. </br>
+4-core/8-threads: [8300G](https://www.amd.com/en/products/processors/desktops/ryzen/8000-series/amd-ryzen-3-8300g.html) has PCIe v4 + A.i. NPU vs. [4124p](https://www.amd.com/en/products/processors/server/epyc/4004-series/amd-epyc-4124p.html) has PCIe v5 but No A.i. NPU. </br>
 
 [B650 LiveMixer](https://www.asrock.com/mb/AMD/B650%20LiveMixer/Specification.us.asp) has 3x PCIe v4 x16 electrical: x16 x4 x4. </br>
 [X670E PG Lightning](https://pg.asrock.com/MB/AMD/X670E%20PG%20Lightning/index.asp) has 1x PCIe v5 x16 + 2x PCIe v4 x16 slots "x4 x1" + 1x PCIe x1 v4 = x16 x4 x1 x1. </br>
