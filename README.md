@@ -27,7 +27,7 @@ HighPoint [7608A](https://www.youtube.com/watch?v=IrsV-7knzME) HW & [1608](https
 GPU would have to be moved to x4 or x1 slot or use iGPU. </br>
 AMD most powerful iGPU for AM5 is the [8700G](https://www.amd.com/en/products/processors/desktops/ryzen/8000-series/amd-ryzen-7-8700g.html) but does Not have PCIe v5, has A.i. NPU. </br>
 Ryzen [7000](https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600x.html), [9000](https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600x.html) & Epyc [4004](https://www.amd.com/en/products/processors/server/epyc/4004-series/amd-epyc-4124p.html) have PCIe v5 but dont have A.i. NPU. </br>
-AMD 4-core/8-threads [8300G](https://www.amd.com/en/products/processors/desktops/ryzen/8000-series/amd-ryzen-3-8300g.html) has PCIe v4 + A.i. NPU vs. 4c/8t [4124p](https://www.amd.com/en/products/processors/server/epyc/4004-series/amd-epyc-4124p.html) PCIe v5 but No A.i. NPU. </br>
+AMD 4-core/8-threads [8300G](https://www.amd.com/en/products/processors/desktops/ryzen/8000-series/amd-ryzen-3-8300g.html) has PCIe v4 + A.i. NPU vs. 4c/8t [4124p](https://www.amd.com/en/products/processors/server/epyc/4004-series/amd-epyc-4124p.html) PCIe v5  No A.i. NPU. </br>
 intel 4c/8t [i3-12100](https://www.intel.com/content/www/us/en/products/sku/134584/intel-core-i312100-processor-12m-cache-up-to-4-30-ghz/specifications.html) / 13100 / 14100 has PCIe v5 but does Not have A.i. NPU. Only Next Generation Ultra CPUs, Not compatible with Z790. </br>
 
 [B650 LiveMixer](https://www.asrock.com/mb/AMD/B650%20LiveMixer/Specification.us.asp) has 3x PCIe v4 x16 electrical: x16 x4 x4. </br>
