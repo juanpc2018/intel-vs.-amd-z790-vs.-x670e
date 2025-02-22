@@ -20,7 +20,7 @@ but PCIe x16 v5 requires a switch IC to share lanes when M.2 PCIe v5 is connecte
 B650 LiveMixer does Not have a switch ic, like Z790 & X670E </br>
 CPU lanes are set Fixed by UEFI to PCIe x16 v4 to enable M.2 PCIe v5 "The most common set-up". </br>
 
-PCIe v5 x16 could be used for RAID cards like HighPoint [7608A](https://www.youtube.com/watch?v=IrsV-7knzME) & [1608](https://www.youtube.com/watch?v=suFHJYd_kks).[A](https://www.youtube.com/watch?v=dq8XnVIVJ_g) </br>
+PCIe v5 x16 could be used for RAID cards like HighPoint [7608A](https://www.youtube.com/watch?v=IrsV-7knzME) HW & [1608](https://www.youtube.com/watch?v=suFHJYd_kks).[A](https://www.youtube.com/watch?v=dq8XnVIVJ_g) SW </br>
 GPU would have to be moved to x4 or x1 slot or use iGPU. </br>
 B650 does Not have PCIe v5 x16, like Z790 or X670E, but All have M.2 PCIe v5 </br>
 B650 LiveMixer is the only AMD board that has x16 x4 x4 electrical with 3x x16 plastic slots, similar to Z790 LiveMixer. </br>
@@ -46,7 +46,7 @@ you win some, you lose some, depends on your needs. </br>
 
 ### example: </br>
 
-¿Does [Thunderbolt 4 AIC PCIe card](https://www.asrock.com/mb/spec/product.asp?Model=Thunderbolt%204%20AIC) work in x1 electric PCIe v4 slot? </br>
+¿Does [Thunderbolt 4 AIC PCIe card](https://www.asrock.com/mb/spec/product.asp?Model=Thunderbolt%204%20AIC) "Add-In Card" work in x1 electric PCIe v4 slot? </br>
 TB4 box comes with an install guide paper, but instructions are incomplete / outdated </br>
 [download .pdf](https://download.asrock.com/Manual/Thunderbolt%204%20AIC.pdf) </br>
 AMD boards require to change 1x jumper on TB4 card. </br>
@@ -139,9 +139,10 @@ Each PCIe x4 electric slot is limited to [25w](https://en.wikipedia.org/wiki/PCI
 Each x1 PCIe slot is limited to 0.5A at +12V (6W) 10W combined. </br>
 x16 graphics card that does Not have VGA 6-pin power connector, like some GTX 1050 Ti, RTX A2000 draw up to 5.5A at +12V (66W) 75W combined. </br>
 Optional VGA connectors add: +75W (6-pin) / +150W (8-pin) of +12V. </br>
-8+4 Works but requires a well designed PSU. </br>
+M.2 drives draw up to 12watts each. </br>
 
-IF disable "HyperThreading / CPU SMT", ACME PSU or Overclocking works. </br>
+8+4 Works but requires a well designed PSU. </br>
+IF disable "HyperThreading / CPU SMT", ACME PSU or Overclocking could work. </br>
 
 ### SATA-III
 
