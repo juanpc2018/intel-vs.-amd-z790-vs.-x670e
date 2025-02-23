@@ -62,6 +62,9 @@ PCIe2 x1 goes to Z790 Chipset. </br>
 PCIe3 x4 goes to Z790 Chipset. </br>
 PCIe4 x4 goes to Z790 Chipset. </br>
 
+some claim 2x PCIe x1 combiner / agregation cable adapter is [Not possible.](https://electronics.stackexchange.com/questions/725725/convert-2-lanes-of-pcie-gen1-to-one-lane-of-gen2).[1](https://forums.developer.nvidia.com/t/aggregate-pcie-links-into-bigger-link/128224/3) </br>
+But Nobody has actually tried to make a Y-cable, using those PCIe x1 Risers for GPU mining. </br>
+
 B650 LiveMixer has 2x SATA-III 6Gbps </br>
 X670E & Z790 have 4x SATA-III 6Gbps </br>
 X670E has 1x 20 Gbps [USB-C 3.2 Gen2x2](https://en.wikipedia.org/wiki/USB_3.0#USB_3.2) </br>
