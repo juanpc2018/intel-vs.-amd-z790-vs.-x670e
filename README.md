@@ -66,7 +66,7 @@ some claim 2x PCIe x1 combiner / agregation cable is [Not possible](https://elec
 But Nobody has actually tried to make a Y-cable, using those PCIe x1 Risers for GPU mining. </br>
 i remember old Gigabyte [X58-UD9](https://www.aorus.com/motherboards/GA-X58A-UD9-rev-10/Key-Features) had 2x nF200 PCIe Bridge, and [Asus](https://web.archive.org/web/20100525110455/http://www.nordichardware.com/en/component/content/article/article/76-motherboards/22471-asus-rog-xpander-enables-4-way-sli-on-rampage-iii-extreme.html?tmpl=component&print=1&page=) [Rog Xpander](https://en.ocworkbench.com/asus-rog-xpander-board-upgrades-rampage-iii-extreme-to-support-4-way-sli-with-2x-nf200-chip/) had [2x nF200s.](https://rog-forum.asus.com/t5/other-motherboards/xpander-extensive-overview/td-p/81934) </br>
 UD9 [Block Diagram](https://www.manualslib.com/manual/453204/Gigabyte-Ga-X58a-Ud9.html?page=8#manual) show is possible. </br>
-
+der8auer did the opposite, [taping with Kapton](https://www.youtube.com/watch?v=pB-zBSExMS4&t=411s) the PCIe pins to lower PCIe lanes. </br>
 
 B650 LiveMixer has 2x SATA-III 6Gbps </br>
 X670E & Z790 have 4x SATA-III 6Gbps </br>
