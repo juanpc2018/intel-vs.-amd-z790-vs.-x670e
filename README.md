@@ -26,7 +26,7 @@ PCIe v5 x16 could be used for RAID cards like: </br>
 HighPoint [7608A](https://www.youtube.com/watch?v=IrsV-7knzME) HW & [1608](https://www.youtube.com/watch?v=suFHJYd_kks).[A](https://www.youtube.com/watch?v=dq8XnVIVJ_g) SW, Sonnet [8x4 PCIe v4](https://www.sonnettech.com/product/m2-8x4-pcie-card/overview.html) or Areca [ARC-1886-xNxI](https://www.areca.us/products/nvme-1886.html) </br>
 ASUS Hyper M.2 x16 [Gen5](https://www.asus.com/motherboards-components/motherboards/accessories/hyper-m-2-x16-gen5-card/) requires Bifurcation on the Bios, probably only servers have that. </br>
 GPU would have to be moved to x4 or x1 slot or use iGPU. </br>
-AMD most powerful iGPU for AM5 is the [8700G](https://www.amd.com/en/products/processors/desktops/ryzen/8000-series/amd-ryzen-7-8700g.html) the only AM5 CPU that has A.i. NPU, but 8000 series have PCIe v4. </br>
+AMD most powerful iGPU for AM5 is the [8700G](https://www.amd.com/en/products/processors/desktops/ryzen/8000-series/amd-ryzen-7-8700g.html) the only AM5 CPU that has A.i. NPU, but 8000´s have PCIe v4. </br>
 8c/16t 8700G is -5% slower vs. 7700, -10% vs. 7700X, -20% vs. 9700X, -25% vs. 9800X3D. </br>
 
 4c/8t [8300G](https://www.amd.com/en/products/processors/desktops/ryzen/8000-series/amd-ryzen-3-8300g.html) PCIe v4 No A.i. NPU vs. 4c/8t [4124p](https://www.amd.com/en/products/processors/server/epyc/4004-series/amd-epyc-4124p.html) PCIe v5 No A.i. NPU. </br>
