@@ -22,7 +22,7 @@ CPU lanes are set Fixed by UEFI to PCIe x16 v4 to enable M.2 PCIe v5 "The most c
 B650 does Not have PCIe v5 x16, like Z790 or X670E, but All have M.2 PCIe v5 *IF CPU is 7000, 9000 or 4004. </br>
 B650 LiveMixer is the only AMD board that has x16 x4 x4 electrical with 3x x16 plastic slots, similar to Z790 LiveMixer. </br>
 
-PCIe v5 x16 could be used for RAID cards like: </br>
+Z790 & X670E PCIe v5 x16 could be used for RAID cards like: </br>
 HighPoint [7608A](https://www.youtube.com/watch?v=IrsV-7knzME) HW & [1608](https://www.youtube.com/watch?v=suFHJYd_kks).[A](https://www.youtube.com/watch?v=dq8XnVIVJ_g) SW, Sonnet [8x4 PCIe v4](https://www.sonnettech.com/product/m2-8x4-pcie-card/overview.html) or Areca [ARC-1886-xNxI](https://www.areca.us/products/nvme-1886.html) </br>
 ASUS Hyper M.2 x16 [Gen5](https://www.asus.com/motherboards-components/motherboards/accessories/hyper-m-2-x16-gen5-card/) requires Bifurcation on the Bios, probably only servers have that. </br>
 GPU would have to be moved to x4 or x1 slot or use iGPU. </br>
