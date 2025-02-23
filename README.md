@@ -51,7 +51,7 @@ PCIe2 x4 goes to CPU. </br>
 PCIe3 x4 goes to B650 Chipset. </br>
 
 X670E PG Lightning: </br>
-PCIe1 x16 v5 goes to Switch--> CPU. </br>
+PCIe1 x16 v5 goes to: Switch--> CPU. </br>
 PCIe2 x1 goes to 2nd X670e Chipset. </br>
 PCIe3 goes to CPU. </br>
 PCIe4 x1 goes to 2nd X670e Chiptset. </br>
