@@ -75,7 +75,7 @@ X670E PCIe slot3 goes to CPU. </br>
 B650 LiveMixer PCIe slot2 goes to CPU. </br>
 
 Z790 LiveMixer + TB4 card does Not work when using 12th gen CPU like i3-12100 + latest Bios/Uefi 18.x designed for 14gen CPU´s, </br>
-TB4 card works OK with [UEFI v9.03](https://www.asrock.com/mb/Intel/Z790%20LiveMixer/Specification.asp#BIOS) because it´s Universal, works with 12, 13 & 14th gen CPU´s </br>
+works OK with [UEFI v9.03](https://www.asrock.com/mb/Intel/Z790%20LiveMixer/Specification.asp#BIOS) because it´s Universal, works with 12, 13 & 14th gen CPU´s </br>
 Early Bios does Not support 14th gen CPU´s. </br>
 
 AMD boards: To Be Tested... </br>
