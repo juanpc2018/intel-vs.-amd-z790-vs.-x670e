@@ -64,7 +64,7 @@ PCIe4 x4 goes to Z790 Chipset. </br>
 
 some claim 2x PCIe x1 combiner / agregation cable is [Not possible](https://electronics.stackexchange.com/questions/725725/convert-2-lanes-of-pcie-gen1-to-one-lane-of-gen2).[1](https://forums.developer.nvidia.com/t/aggregate-pcie-links-into-bigger-link/128224/3) </br>
 But Nobody has actually tried to make a Y-cable, using those PCIe x1 Risers for GPU mining. </br>
-i remember old Gigabyte [X58-UD9](https://www.aorus.com/motherboards/GA-X58A-UD9-rev-10/Key-Features) had 1x nF200 PCIe Bridge, and [Asus](https://web.archive.org/web/20100525110455/http://www.nordichardware.com/en/component/content/article/article/76-motherboards/22471-asus-rog-xpander-enables-4-way-sli-on-rampage-iii-extreme.html?tmpl=component&print=1&page=) [Rog Xpander](https://en.ocworkbench.com/asus-rog-xpander-board-upgrades-rampage-iii-extreme-to-support-4-way-sli-with-2x-nf200-chip/) had [2x nF200s.](https://rog-forum.asus.com/t5/other-motherboards/xpander-extensive-overview/td-p/81934) </br>
+i remember old Gigabyte [X58-UD9](https://www.aorus.com/motherboards/GA-X58A-UD9-rev-10/Key-Features) had 2x nF200 PCIe Bridge, and [Asus](https://web.archive.org/web/20100525110455/http://www.nordichardware.com/en/component/content/article/article/76-motherboards/22471-asus-rog-xpander-enables-4-way-sli-on-rampage-iii-extreme.html?tmpl=component&print=1&page=) [Rog Xpander](https://en.ocworkbench.com/asus-rog-xpander-board-upgrades-rampage-iii-extreme-to-support-4-way-sli-with-2x-nf200-chip/) had [2x nF200s.](https://rog-forum.asus.com/t5/other-motherboards/xpander-extensive-overview/td-p/81934) </br>
 UD9 [Block Diagram](https://www.manualslib.com/manual/453204/Gigabyte-Ga-X58a-Ud9.html?page=8#manual) show is probable. </br>
 
 
