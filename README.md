@@ -45,6 +45,23 @@ v4 x1 slot can be used for [2x PCIe v1.1 + 2x PCI v2.3 expansion enclosure](http
 Serial, Firewire 400/800, Parallel PCIe x1 cards, brands Syba, Startech, Asix tw, etc... </br>
 v4 x4 slot can be used for [4x PCIe v2 expansion enclosure](https://www.startech.com/en-us/cards-adapters/4pcie-pcie-enclosure) with PCIe x2 host card. </br>
 
+B650 LiveMixer: </br>
+PCIe1 x16 v4 goes to CPU. </br>
+PCIe2 x4 goes to CPU. </br>
+PCIe3 x4 goes to B650 Chipset. </br>
+
+X670E PG Lightning: </br>
+PCIe1 x16 v5 goes to Switch--> CPU. </br>
+PCIe2 x1 goes to 2nd X670e Chipset. </br>
+PCIe3 goes to CPU. </br>
+PCIe4 x1 goes to 2nd X670e Chiptset. </br>
+
+Z790 LiveMixer: </br>
+PCIe1 x16 v5 goes to: Switch--> CPU. </br>
+PCIe2 x1 goes to Z790 Chipset. </br>
+PCIe3 x4 goes to Z790 Chipset. </br>
+PCIe4 x4 goes to Z790 Chipset. </br>
+
 B650 LiveMixer has 2x SATA-III 6Gbps </br>
 X670E & Z790 have 4x SATA-III 6Gbps </br>
 X670E has 1x 20 Gbps [USB-C 3.2 Gen2x2](https://en.wikipedia.org/wiki/USB_3.0#USB_3.2) </br>
