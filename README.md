@@ -37,7 +37,7 @@ Ryzen [7000](https://www.amd.com/en/products/processors/desktops/ryzen/7000-seri
 
 v4 x4 slot can be used for Thunderbolt4 card, or 10GbE SFP+ Ethernet card or more [SATA-III 6Gbps](http://ableconn.com/products_2.php?gid=163).[1](http://ableconn.com/products_2.php?gid=61).[2](http://ableconn.com/products_2.php?gid=107) ports or more [M.2 ports](http://ableconn.com/products_2.php?gid=106), </br>
 or M.2 Raid card like [Ableconn PEXM2-130  Dual NVMe M.2](http://ableconn.com/products_2.php?gid=143) </br>
-v4 x1 slot can be used for [2x PCIe v1.1 2x PCI v2.3 expansion enclosure](https://www.startech.com/en-us/cards-adapters/pex2pcie4l) with PCIe x1 host card. </br>
+v4 x1 slot can be used for [2x PCIe v1.1 + 2x PCI v2.3 expansion enclosure](https://www.startech.com/en-us/cards-adapters/pex2pcie4l) or [4x PCI expansion](https://www.startech.com/en-us/cards-adapters/pex2pci4) with PCIe x1 host card. </br>
 Serial, Firewire 400/800, Parallel PCIe x1 cards, brands Syba, Startech, Asix tw, etc... </br>
 v4 x4 slot can be used for [4x PCIe v2 expansion enclosure](https://www.startech.com/en-us/cards-adapters/4pcie-pcie-enclosure) with PCIe x2 host card. </br>
 
