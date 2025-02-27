@@ -24,7 +24,7 @@ B650 LiveMixer is the only AMD board that has x16 x4 x4 electrical with 3x x16 p
 
 Z790 & X670E PCIe v5 x16 could be used for RAID cards like: </br>
 HighPoint [7608A](https://www.youtube.com/watch?v=IrsV-7knzME) HW & [1608](https://www.youtube.com/watch?v=suFHJYd_kks).[A](https://www.youtube.com/watch?v=dq8XnVIVJ_g) SW, Sonnet [8x4 PCIe v4](https://www.sonnettech.com/product/m2-8x4-pcie-card/overview.html) or Areca [ARC-1886-xNxI](https://www.areca.us/products/nvme-1886.html) </br>
-ASUS Hyper M.2 x16 [Gen5](https://www.asus.com/motherboards-components/motherboards/accessories/hyper-m-2-x16-gen5-card/) requires Bifurcation on the Bios, probably only servers have that. </br>
+ASUS Hyper M.2 x16 [Gen5](https://www.asus.com/motherboards-components/motherboards/accessories/hyper-m-2-x16-gen5-card/) requires Bifurcation on the Bios, highend boards have that. </br>
 GPU would have to be moved to x4 or x1 slot or use iGPU. </br>
 AMD most powerful iGPU for AM5 is the [8700G](https://www.amd.com/en/products/processors/desktops/ryzen/8000-series/amd-ryzen-7-8700g.html) the only AM5 CPU that has A.i. NPU, but 8000´s have PCIe v4. </br>
 8c/16t 8700G is -5% slower vs. 7700, -10% vs. 7700X, -20% vs. 9700X, -25% vs. 9800X3D. </br>
