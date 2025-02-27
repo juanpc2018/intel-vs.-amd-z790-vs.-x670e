@@ -169,7 +169,7 @@ Motherboard connector: Molex 39-29-9042 or equivalent. </br>
 24-Pin connector has +12v Pins 10 & 11 = 2.3A * 12 * 2-wire = 55 watts </br>
 8+6 "165watts" + 55watts = 220watts minus PCIe & RAM power consumption. </br>
 
-[EPS12v specification](https://web.archive.org/web/20201205140420/http://www.enermax.cn/enermax_pdf/EPS12V%20Spec2_92.pdf) has a recommended limit of 240VA for each 4-pin 12v CPU conector, </br>
+[EPS12v specification](https://web.archive.org/web/20201205140420/http://www.enermax.cn/enermax_pdf/EPS12V%20Spec2_92.pdf) has a recommended limit of 240VA for 12v CPU conector, </br>
 Assuming 75w limit each 4-pin CPU connector, 8+4 = 225watts. </br>
 8+4 seem enough, but depends... on PCIe configuration, RAM and PSU cables, [AWG](https://www.powerstream.com/Wire_Size.htm) must be true [AWG16](https://www.powerstream.com/Wire_Size.htm), Not rubber AWG16. </br>
 
